@@ -2,6 +2,7 @@
 layout: index
 ---
 
+
 #### Overview
 
 This course will cover classic and modern database research papers.  It will place a heavy focus on paper reading, writing good paper reviews.  Students will complete assignments based on some of the readings, and conduct a semester-long project.
