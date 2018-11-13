@@ -5,7 +5,7 @@ layout: index
 
 #### Overview
 
-This course will cover classic and modern database research papers.  It will place a heavy focus on paper reading, writing good paper reviews.  Students will complete assignments based on some of the readings, and conduct a semester-long project.
+This course will cover classic and modern database research papers.  We will go over topics that range from database system design, modern optimizations, data cleaning and explanation, and data provenance.  It will place a heavy focus on paper reading, writing good paper reviews.  Students will complete assignments based on some of the readings, and conduct a semester-long project.
 
 Students are expected to actively participate in discussions and present a paper in class. 
 <small style="color: grey">Course capped at 25.  If waitlist is huge, a small assignment will be used to choose participants.</small>
