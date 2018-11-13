@@ -16,7 +16,7 @@ Students are expected to actively participate in discussions and present a paper
 
 #### Schedule
 
-Topics will cover some papers from [the redbook](http://www.redbook.io), as well as modern data analysis, cleaning, and perhaps databases+ML.
+Topics will cover some papers from [the redbook](http://www.redbook.io), as well as modern provenance/lineage, data analysis, cleaning, and perhaps databases+ML.
 
 <table class="table table-striped schedule">
   <thead>
