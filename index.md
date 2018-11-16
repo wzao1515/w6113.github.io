@@ -5,9 +5,9 @@ layout: index
 
 #### Overview
 
-This course will cover classic and modern database research papers.  It will place a heavy focus on paper reading, writing good paper reviews.  Students will complete assignments based on some of the readings, and conduct a semester-long project.
+This course is intended as a crash course in database systems research.  It will cover classic and modern database research papers.  The class places a _heavy emphasis on paper reading and writing good paper reviews_.  Students will complete assignments based on some of the readings, and conduct a semester-long project.
 
-Students are expected to actively participate in discussions and present a paper in class. 
+Students are expected to be comfortable with a range of programming languages, actively participate in discussions, and present a paper in class. 
 <small style="color: grey">Course capped at 25.  If waitlist is huge, a small assignment will be used to choose participants.</small>
 
 
