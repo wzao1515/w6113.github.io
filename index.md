@@ -2,13 +2,14 @@
 layout: index
 ---
 
-
 #### Overview
 
-This course is intended as a crash course in database systems research.  It will cover classic and modern database research papers.  Topics will range from classic database system design, modern optimizations in single-node and multi-node settings, data cleaning and explanation, and data provenance   The class places a _heavy emphasis on paper reading and writing good paper reviews_.  Students will complete assignments based on some of the readings, and conduct a semester-long project.
+This course is intended as an advanced graduate-level course in database systems research.  It will cover classic and modern database research papers.  Topics will range from classic database system design, modern optimizations in single-node and multi-node settings, data cleaning and explanation, and data provenance.
+
+The class places a _heavy emphasis on paper reading and writing good paper reviews_.  Students will be expected to read papers in depth, complete assignments based ideas from the readings, and conduct a semester-long research project.
 
 Students are expected to be comfortable with a range of programming languages, actively participate in discussions, and present a paper in class. 
-<small style="color: grey">Course capped at 25.  If waitlist is huge, a small assignment will be used to choose participants.</small>
+<small style="color: grey">Course capped at 25.  If waitlist is huge, an assignment will be used to choose participants.</small>
 
 
 
@@ -16,7 +17,7 @@ Students are expected to be comfortable with a range of programming languages, a
 
 #### Schedule
 
-Topics will cover some papers from [the redbook](http://www.redbook.io), as well as modern provenance/lineage, data analysis, cleaning, and perhaps databases+ML.
+Topics will cover a subset of papers from [the redbook](http://www.redbook.io), as well as modern provenance/lineage, data analysis, cleaning, and perhaps databases+ML.
 
 <table class="table table-striped schedule">
   <thead>
@@ -54,4 +55,36 @@ Topics will cover some papers from [the redbook](http://www.redbook.io), as well
 </table>
 
 
+#### Tentative list of papers
+
+
+* Classics
+  * codd
+  * Architecture of a DB
+  * system R
+  * Gamma 
+* Basics of Plan Execution / optimization
+  * volcano
+  * eddies
+  * SEDA?
+  * dbmin
+* Languages
+  * SchemaSQL
+* Recovery
+  * ARIES
+* architectures
+  * C-Store + ten years later
+  * Hekaton
+  * MR/Spark
+  * Naiad
+  * Query compilation + Tarik
+* Concurrency Control
+  * MVCC vs OCC vs Pessimistic vs CALM
+* Slightly modern stuff
+  * implementing data cubes efficiently
+  * CONTROL
+* Scheduling
+* Networking
+* Caching
+  
 

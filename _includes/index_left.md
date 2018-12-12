@@ -10,7 +10,7 @@
 
 #### Prereqs
 
-* Required: W4111 Intro to DDB
+* Required: W4111 Intro to DB
 * Preferred: W4112 DB Impl
 * Ugrads OK; talk to Prof Wu
 
