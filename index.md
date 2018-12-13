@@ -4,11 +4,13 @@ layout: index
 
 #### Overview
 
-This course is intended as an advanced graduate-level course in database systems research.  It will cover classic and modern database research papers.  Topics will range from classic database system design, modern optimizations in single-node and multi-node settings, data cleaning and explanation, and data provenance.
+This course is intended as an advanced graduate-level course in database systems research.  
+The content will cover classic and modern database systems research.  Topics will range from classic database system design, modern optimizations in single-node and multi-node settings, data cleaning and explanation, and data provenance.
 
-The class places a _heavy emphasis on paper reading and writing good paper reviews_.  Students will be expected to read papers in depth, complete assignments based ideas from the readings, and conduct a semester-long research project.
+The class places a _heavy emphasis on paper reading and writing good paper reviews_.   The point is to practice reading papers critically, writing proper reviews, implementing ideas in research papers, and conducting research.  As such, students will be expected to read papers in depth, complete assignments based ideas from the readings, and conduct a semester-long research project.
 
-Students are expected to be comfortable with a range of programming languages, actively participate in discussions, and present a paper in class. 
+Students are expected to be comfortable with a range of programming languages, reading code, actively participate in discussions, and presenting.
+
 <small style="color: grey">Course capped at 25.  If waitlist is huge, an assignment will be used to choose participants.</small>
 
 

@@ -22,6 +22,38 @@ What I expect from You
 * Students should be comfortable coding data processing systems;  familiarity with database query execution, some machine learning, and algorithms is expected.
 * Students should be comfortable conducting a research project and writing up the results in a research paper format.
 
+<a name="participation"></a>
+#### Participation
+
+Participation is mandatory.  
+Since the course is small, it is expected that students will help contribute to the in person and online discussions.  This includes:
+
+* Asking and answering questions related to the class's readings and lectures.  
+* Making observations about the lecture's relationship with products or society 
+* Asking and answering questions on piazza
+
+**Students that do not actively participate will receive a 0 in the course**.
+
+
+<a name="reading"></a>
+#### Paper Reviews (every class)
+
+You are expected to write and submit a paper review of the readings before each class, and answer some questions about the readings.  The review should be akin to a conference paper review.  The purpose of the readings is to provide an illustrative example of the research area.  You are encouraged but not required to read the supplemental readings to better understand the materials.  The class reviews must be submitted by **9PM EST the day before class**.  Late submissions are given a score of 0 without prior approval.  You may miss submissions for up to **2 lectures**.
+
+We will select a random review to read and discuss in class.  This serves to highlight important characteristics of reading papers and writing good reviews.
+
+Each review **must** answer the following basic questions:
+
+* What was the unmet need or opportunity? (1-2 sentences)
+* What were existing approaches and why were they not used? Or could they have been used? (1-3 sentences)
+* What was the key technical idea?  (1 sentence)
+* What evidence supports the claim?  What evidence is lacking? (1-3 sentences)
+* Include 1+ question to ask the speaker.
+
+[Submit your reviews here](https://goo.gl/forms/2I3Cc4nGM62j1SO62)
+
+
+
 <!--For assignments, you allowed 5 penalty free late days to use throughout the semester. One late day equals one 24 hour period after the due date of the assignment. Once you have used your late days, there will be a 20% penalty for each day an assignment is late. You do not need to explictly declare the use of late days; we will assign them to you in a way that is optimal for your grade when different assignments are worth different numbers of points. Late days may not be used for the final project.-->
 
 
@@ -37,30 +69,6 @@ The project is a significant part of the course grade.
 There will be an in-class written exam on 3/21 (after spring break).
 The exam will be long-from questions based on the mandatory readings and topics discussed in class.
 It will be closed notes.
-
-<a name="reading"></a>
-#### Paper Reviews (every class)
-
-You are expected to write and submit a paper review of the readings before each class, and answer some questions about the readings.  The review should be akin to a conference paper review.  The purpose of the readings is to provide an illustrative example of the research area.  You are encouraged but not required to read the supplemental readings to better understand the materials.  The class reviews must be submitted by **9PM EST the day before class**.  Late submissions are given a score of 0 without prior approval.  You may miss submissions for up to **2 lectures**.
-
-Each review **must** answer the following basic questions:
-
-* What was the unmet need or opportunity? (1-2 sentences)
-* What were existing approaches and why were they not used? Or could they have been used? (1-3 sentences)
-* What was the key technical idea?  (1 sentence)
-* What evidence supports the claim?  What evidence is lacking? (1-3 sentences)
-* Include 1+ question to ask the speaker.
-
-[Submit your reviews here](https://goo.gl/forms/2I3Cc4nGM62j1SO62)
-
-<a name="participation"></a>
-#### Participation
-
-Participation is mandatory.  Since the course is small, it is expected that students will help contribute to the in person and online discussions.  This includes:
-
-* Asking and answering questions related to the class's readings and lectures.  
-* Making observations about the lecture's relationship with products or society 
-* Asking and answering questions on piazza
 
 A corallory is that your conduct is respectful and encouraging to your fellow students.
 
