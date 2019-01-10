@@ -70,27 +70,23 @@ Each week we will discuss classic research and modern takes.
     * The importance of simple equations
     * 5 minute rule
     * Other principles
-      * Buffers/Caches/Prefetching
-      * Temporal/Spatial Locality
-      * Skew and fast paths
-      * Communication
-        * messaging, shared memory/space
 * Basics
   1. [Architecture of a DB](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
-  2. [SystemR retrospective](http://db.cs.berkeley.edu/cs262/SystemR-annotated.pdf) or
+  2. [SystemR retrospective](http://db.cs.berkeley.edu/cs262/SystemR-annotated.pdf) or   
      [Design of Postgres](http://db.cs.berkeley.edu/cs286/papers/postgres-cacm1986.pdf)
 * Indexes
   1. R-trees
   2. [GIST-trees](http://db.cs.berkeley.edu/papers/vldb95-gist.pdf)
 * Joins
   1. Shapiro: Join Processing in Database Systems with Large Main Memories  
-  2. Ripple joins?
+  2. Track Join (Wangda?)
 * Execution
-  1. Volcano
+  1. Volcano's Exchange
+    * https://people.eecs.berkeley.edu/~brewer/cs262/exchange+eddies.html
   2. Eddies
 * Lower level Optimizations
   * DBMin
-  * [http://db.cs.berkeley.edu/cs286/papers/caching-sigmod1996.pdf](Hybrid Caching)
+  * [Hybrid Caching](http://db.cs.berkeley.edu/cs286/papers/caching-sigmod1996.pdf)
 * Query Plan Optimization
   * Classics
     * Selinger
