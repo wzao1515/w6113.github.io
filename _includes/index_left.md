@@ -1,8 +1,9 @@
 #### Information 
 
-* [Eugene Wu](http://www.eugenewu.net) (Instructor)   
-  <small>OH: Thurs 3-4PM in 421 Mudd</small>
-* Class: T/Th 1-2:30PM
+* [Eugene Wu](http://www.eugenewu.net) (Instructor)     
+  <small>OH: Thurs 3-4PM in 421 Mudd</small>   
+* Class: T/Th 1-2:30PM   
+  307 Pupin 
 * [Syllabus](./syllabus)
 * [Piazza](https://piazza.com/class/jpqearvq2qq201)
 * [Project](./projects)
