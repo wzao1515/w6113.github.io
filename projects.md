@@ -49,12 +49,12 @@ Your reserach prospectus will contain an overview of the research problem, _your
 Your prospectus should follow the example:
 
 * [Click here for an example prospectus](./files/prospectus/prospectus.pdf)
-* [Click here for the tex files](https://github.com/columbiaviz/columbiaviz.github.io/tree/master/files/prospectus)
+* [Click here for the tex files](https://github.com/w6113/w6113.github.io/tree/master/files/prospectus)
 
 Submission:
 
 1. Rename the filename of your prospectus to the following format, last names should be in **alphabetical order**. `prospectus_<lastname1>_.._<lastnameN>.pdf`
-2. [**Click here to upload the file by 2/11 11:59PM EST**](https://www.dropbox.com/request/Kmymco2V49BS3rSlWfls)
+2. [**Click here to upload the file by TBA 11:59PM EST**](https://www.dropbox.com/request/Opyk8ALWnSyYEin0ZHKs)
 
 
 <a name="midpoint"></a>
