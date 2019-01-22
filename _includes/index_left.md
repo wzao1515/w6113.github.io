@@ -1,10 +1,10 @@
 #### Information 
 
 * [Eugene Wu](http://www.eugenewu.net) (Instructor)   
-  <small>OH: Tues 5-6PM in 421 Mudd</small>
+  <small>OH: Thurs 3-4PM in 421 Mudd</small>
 * Class: T/Th 1-2:30PM
 * [Syllabus](./syllabus)
-* [Piazza](./)
+* [Piazza](https://piazza.com/class/jpqearvq2qq201)
 * [Project](./projects)
 
 
