@@ -1,3 +1,9 @@
+---
+layout: page
+---
+
+
+
 # Paper Reviews
 
 By default, due 6PM day before lecture.
@@ -5,7 +11,7 @@ By default, due 6PM day before lecture.
 [Submit Reviews Using This Form Here](https://goo.gl/forms/uNfVx9jUBXdj6wXd2)
 
 
-## 1/24 System R Overview <a name="lec2"/>
+### 1/24 System R Overview <a name="lec2"/>
 
 Readings 
 
