@@ -1,5 +1,5 @@
 color,date,slug,title,readings,optional,assigned,due
-#fdf3fd,22-Jan,"<a href=""./lecs/01_intro"">Intro</a>",,,,"<a href=""https://www.github.com/w6113/databass-public"">HW0</a> (weds)",
+#fdf3fd,22-Jan,"<a href=""./lecs/01_intro"">Intro</a>",,,,"<a href=""https://www.github.com/w6113/databass-public/docs/hw0.md"">HW0</a> (weds)",
 #fdf3fd,24-Jan,"System R overview<br/><a href=""./reviews#lec2"">Submit review here</a>",,"<a href=""./files/papers/systemr-retrospective.pdf"">System R Retrospective</a>","<a href=""./files/papers/ingres-retrospective.pdf"">Ingres Design</a>",,HW0 1/27 11:59PM
 white,29-Jan,,,,,,
 white,31-Jan,,,,,,
