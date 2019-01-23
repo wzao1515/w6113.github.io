@@ -1,10 +1,12 @@
 /* Page structure */
 
 body {
-  margin: 0;
+  margin: 0px;
   color: black;
   background-color: white;
   font: normal normal 17px/24px Roboto, Arial, sans-serif;
+  width: 99%;
+  padding: 0px;
 }
 
 .container {

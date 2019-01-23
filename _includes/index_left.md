@@ -11,16 +11,22 @@
 
 #### Prereqs
 
-* Required: W4111 Intro to DB
-* Preferred: W4112 DB Impl
-* Ugrads OK; talk to Prof Wu
+* Req: W4111 Intro to DB
+* Pref: W4112 DB Impl
+* Ugrads OK; see Prof Wu
 
-#### Grading
+#### Grading 
+
+(Tentative)
 
 * [Project](./projects) <small>70%</small>
-* [Midterm](./syllabus#midterm)    <small>15% </small>
-* [Paper Reviews](./syllabus#reading)      <small>15% </small>
-* [Participation](./syllabus#participation)  <small>mandatory</small>
+  * Prospectus <small>10%</small>
+  * Mock PC <small>10%</small>
+  * Presentation <small>10%</small>
+  * Paper <small>40%</small>
+* [Participation](./syllabus#participation)  <small>15%</small>    
+  Inc. [paper reviews](./syllabus#reading)
+* HWs <small>15%</small>
 
 
 

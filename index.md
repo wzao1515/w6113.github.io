@@ -17,6 +17,8 @@ Students are expected to be comfortable with a range of programming languages, r
 
 #### Recent Announcements
 
+* Added page for [paper reviews](./reviews)
+
 #### Schedule
 
 Topics will cover a subset of papers from [the redbook](http://www.redbook.io), as well as modern provenance/lineage, data analysis, cleaning, and perhaps databases+ML.
@@ -26,8 +28,8 @@ Topics will cover a subset of papers from [the redbook](http://www.redbook.io), 
   <tr>
     <!--<th class="idx" style="width: 3em; max-width:3em;"></th>-->
     <th class="date" style="width: 4em; max-width: 4em;"> <p> <span>Date </span> </p> </th>
-    <th style="min-width: 20%;"> <p> <span>Topic </span> </p> </th>
-    <th style="width: 25%"> <p> <span>Readings </span> </p> </th>
+    <th style="min-width: 15%;"> <p> <span>Topic </span> </p> </th>
+    <th style="width: 30%"> <p> <span>Readings </span> </p> </th>
     <th style="width: 15%;"> <p> <span>Assigned</span> </p> </th>
     <th style="width: 15%;"> <p> <span>Due</span> </p> </th>
   </tr>

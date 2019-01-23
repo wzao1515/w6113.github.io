@@ -102,14 +102,15 @@ Research projects
   * Better understand the numbers
     * goes to point 1.  "I made a graph" is not research
 
-Grades
+Rough Grades
 
-* 60% research project
+* 70% research project
   * 40%: Final paper
+  * 10%: Prospectus
   * 10%: Program committee
   * 10%: Presentation
 * 15%: Participation
-* 25% assignments
+* 15% assignments
 
 * Relationship with 4112:
   * DB implementations dives into the Cow Book's details of locking, recovery (simplified ARIES), B+ indexes, etc
