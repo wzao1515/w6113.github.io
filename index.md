@@ -21,7 +21,6 @@ Students are expected to be comfortable with a range of programming languages, r
 
 #### Schedule
 
-Topics will cover a subset of papers from [the redbook](http://www.redbook.io), as well as modern provenance/lineage, data analysis, cleaning, and perhaps databases+ML.
 
 <table class="table table-striped schedule">
   <thead>
@@ -67,7 +66,7 @@ Topics will cover a subset of papers from [the redbook](http://www.redbook.io), 
 
 #### Tentative list of papers
 
-Each week we will discuss classic research and modern takes.
+Topics will cover a subset of papers from [the redbook](http://www.redbook.io), as well as modern provenance/lineage, data analysis, cleaning, and perhaps databases+ML.
 
 
 * Intro
