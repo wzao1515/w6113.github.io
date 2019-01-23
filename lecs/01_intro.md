@@ -116,7 +116,17 @@ Grades
   * Will not replicate too much content from 4112
   * Focus will be on reading the research papers and may go over some 4111 content as background
 
+TODOs
 
+* Specialized for this week
+* HW0  
+  * Databass: expression compilation
+  * Paper review
+  * Released Weds 10AM
+  * Due Sunday midnight
+* paper review
+  * released: Tuesday 8PM
+  * due: Thursday noon
 
 # Short DB History
 

@@ -24,12 +24,12 @@ Topics will cover a subset of papers from [the redbook](http://www.redbook.io), 
 <table class="table table-striped schedule">
   <thead>
   <tr>
-    <th class="idx" style="width: 3em; max-width:3em;"></th>
+    <!--<th class="idx" style="width: 3em; max-width:3em;"></th>-->
     <th class="date" style="width: 4em; max-width: 4em;"> <p> <span>Date </span> </p> </th>
-    <th style="min-width: 30%;"> <p> <span>Topic </span> </p> </th>
+    <th style="min-width: 20%;"> <p> <span>Topic </span> </p> </th>
     <th style="width: 25%"> <p> <span>Readings </span> </p> </th>
-    <th style="width: 10%;"> <p> <span>Assigned</span> </p> </th>
-    <th style="width: 10%;"> <p> <span>Due</span> </p> </th>
+    <th style="width: 15%;"> <p> <span>Assigned</span> </p> </th>
+    <th style="width: 15%;"> <p> <span>Due</span> </p> </th>
   </tr>
   </thead>
 {% assign idx = 0 %}
@@ -37,19 +37,25 @@ Topics will cover a subset of papers from [the redbook](http://www.redbook.io), 
 {% for r in site.data.schedule %}
   {% assign idx = idx | plus: 1  %}
   <tr style="background-color: {{r.color}}; ">
-    <td class="idx">L{{idx}}</td>
+    <!--<td class="idx">L{{idx}}</td>-->
     <td class="date">{{r.date}}</td>
     <td class="slug">
-      <a href="{{r.link}}">
+      {% if r.link %}<a href="{{r.link}}">{% endif %}
         {{r.slug}}
-      </a> 
+      {% if r.link %}</a> {% endif %}
       <br/>
       {{r.title}}
 
-      {% if r.optional %}<br/>{% endif%}
-      {{r.optional | safe}}
       </td>
-    <td class="readings">{{r.readings | safe}}</td>
+    <td class="readings">
+      {% if r.readings %}
+        {{r.readings | safe}}
+      {% endif %}
+      {% if r.optional %}
+        <br/>
+        Optional: {{r.optional | safe}}
+      {% endif%}
+    </td>
     <td>{{r.assigned | safe}}</td>
     <td>{{r.due | safe}}</td>
   </tr>
