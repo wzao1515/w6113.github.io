@@ -105,6 +105,10 @@ h4 {
 	font-weight: bold;
 }
 
+ul {
+  padding-left: 1em;
+}
+
 .abstract, header {
   border-top: 2px solid #b46;
   border-bottom: 2px solid #b46;
