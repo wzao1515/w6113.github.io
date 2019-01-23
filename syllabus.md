@@ -38,19 +38,7 @@ Since the course is small, it is expected that students will help contribute to 
 <a name="reading"></a>
 #### Paper Reviews (every class)
 
-You are expected to write and submit a paper review of the readings before each class, and answer some questions about the readings.  The review should be akin to a conference paper review.  The purpose of the readings is to provide an illustrative example of the research area.  You are encouraged but not required to read the supplemental readings to better understand the materials.  The class reviews must be submitted by **9PM EST the day before class**.  Late submissions are given a score of 0 without prior approval.  You may miss submissions for up to **2 lectures**.
-
-We will select a random review to read and discuss in class.  This serves to highlight important characteristics of reading papers and writing good reviews.
-
-Each review **must** answer the following basic questions:
-
-* What was the unmet need or opportunity? (1-2 sentences)
-* What were existing approaches and why were they not used? Or could they have been used? (1-3 sentences)
-* What was the key technical idea?  (1 sentence)
-* What evidence supports the claim?  What evidence is lacking? (1-3 sentences)
-* Include 1+ question to ask the speaker.
-
-[Submit your reviews here](https://goo.gl/forms/2I3Cc4nGM62j1SO62)
+See [./reviews](./reviews) for a description and expectations for paper reviews.
 
 
 
