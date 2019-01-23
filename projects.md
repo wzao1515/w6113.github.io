@@ -9,18 +9,19 @@ title: W6113 Research Project
 
 Percentages are of your total class grade.
 
-* Proposal Presentations    TBA (5%)
-* Prospectus       TBA    (5%)
-* Poster Session   TBA    (10%)
-* Report          TBA     (50%)
+* Prospectus       TBA    (10%)
+* Mock PC  TBA (10%)
+* Presentation   TBA    (10%)
+* Report          TBA     (40%)
 
 #### Overview
 
 
-The major portion of your grade is based on the research project. Students will organize into teams of 1-3 students and work on a semester long project.  Some possible ideas are [described below](#suggestions).
+The major portion of your grade is based on the research project. Students will organize into teams of 1-3 students and work on a research project.  It should take about 3-4 weeks to complete.  Some possible ideas are [described below](#suggestions).
 
 Good class projects can vary dramatically in complexity, scope, and topic. The only requirement is that they be related to something we have studied in this class and that they contain some element of research -- e.g., that you do more than simply engineer a piece of software that someone else has described or architected. To help you determine if your idea is of reasonable scope, we will arrange to meet with each group several times throughout the semester.
 
+<!--
 #### Proposal Presentations 
 
 At the beginning of the 2nd to 4th lectures, each group will give a **5 minute presentation** about their proposed project to the class.  The presentation should contain:
@@ -33,6 +34,7 @@ At the beginning of the 2nd to 4th lectures, each group will give a **5 minute p
 Teams can meet with the instructor after their presentations for further discussion and feedback.
 
 [**Click here to sign up**](https://calendar.google.com/calendar/selfsched?sstoken=UUlmUlc5VDIwWDJwfGRlZmF1bHR8MTUwY2E3NDBiMDNhMTU4ZDIyODhlMjFlZTAzZGMyZTU).  Click "next" until you get to the appropriate week.
+-->
 
 
 <!-- Teams should consist of 1-3 people. In addition, if you have a project in mind, please indicate briefly (1--2 sentences) what you are thinking. We have included a list of possible projects at the end of this document although you are not required to choose from these. -->
@@ -44,8 +46,6 @@ Teams can meet with the instructor after their presentations for further discuss
 
 Your reserach prospectus will contain an overview of the research problem, _your hypothesis_, first pass at related work, a description of how you plan to complete the project, and metrics to decide _if it worked_.   
 
-<!--A good prospectus is basically the skeleton of the full report.  It is _highly recommended_ that you come to office hours to discuss project ideas before writing the prospectus.-->
-
 Your prospectus should follow the example:
 
 * [Click here for an example prospectus](./files/prospectus/prospectus.pdf)
@@ -53,12 +53,12 @@ Your prospectus should follow the example:
 
 Submission:
 
-1. Rename the filename of your prospectus to the following format, last names should be in **alphabetical order**. `prospectus_<lastname1>_.._<lastnameN>.pdf`
-2. [**Click here to upload the file by TBA 11:59PM EST**](https://www.dropbox.com/request/Opyk8ALWnSyYEin0ZHKs)
+1. Rename the filename of your prospectus to the following format, last names should be in **alphabetical order**. `prospectus_<UNI>_.._<UNIn>.pdf`
+2. [**Click here to upload the file**](https://www.dropbox.com/request/Opyk8ALWnSyYEin0ZHKs)
 
 
 <a name="midpoint"></a>
-#### Midpoint Review
+#### Mock PC Meeting
 
 The midpoint review will be an in-class exercise where teams will present and receive feedback/suggestions in a "speed-dating" style session.  Details will be released closer to the session.
 
@@ -90,10 +90,14 @@ Because this report is the primary deliverable upon which you will be graded, **
 1. Rename the filename of your report to the following format, last names should be in alphabetical order. `report_<lastname1>_<lastname2>.._<lastnameN>.pdf`
 2. [**Click here to upload the file by 4/30 11:59PM EST**](https://www.dropbox.com/request/9zdikb92vHFFPYtaFF0e)
 
-<!--
 
 <a name="suggestions"></a>
 ## Project Suggestions
+
+TBA
+
+
+<!--
 
 
 The following are examples of possible projects -- they are by no means a complete list and **you are free to select your own projects**.  In general, projects can be of three varieties:
