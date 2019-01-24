@@ -14,7 +14,7 @@ white,28-Feb,Eddies,,,,,
 #fdf3fd,5-Mar,TBA,,,,,
 #fdf3fd,7-Mar,Hybrid Caching/UDFs,,,,,
 white,12-Mar,Volcano/Cascades Optimizer,,,,,
-white,14-Mar,RL for Join Optimization,,,,,HW3
+white,14-Mar,RL for Join Optimization,,,,,HW3<br/>Paper Draft
 #fdf3fd,26-Mar,Datalog and Recursion,,,,,
 #fdf3fd,28-Mar,Lineage,,,,,
 white,2-Apr,Mock PC,,,,,Mock PC
