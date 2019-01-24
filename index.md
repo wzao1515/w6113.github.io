@@ -44,8 +44,10 @@ Students are expected to be comfortable with a range of programming languages, r
       {% if r.link %}<a href="{{r.link}}">{% endif %}
         {{r.slug}}
       {% if r.link %}</a> {% endif %}
-      <br/>
-      {{r.title}}
+      {% if r.presenter %}
+        <br/>
+        Presenter: {{r.presenter}}
+      {% endif %}
 
       </td>
     <td class="readings">

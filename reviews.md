@@ -41,7 +41,8 @@ Ask the following questions while readings
 
 # The Papers
 
-### 1/24 System R Overview <a name="lec2"/>
+
+### L2 System R Overview <a name="lec2"/>
 
 Readings 
 
@@ -60,3 +61,141 @@ Submission
 
 * Due: 12PM Thursday 1/24 
 * [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/tv0wcPqzvs3hcyNG3)
+
+
+### L3 INGRES/PostGRES    <a name='lec3' />
+
+Readings
+
+* Required: [Design of Postgres](./files/papers/postgres-retrospective.pdf)
+* Optional: [Design of INGRES](./files/papers/ingres-retrospective.pdf)
+
+
+### L4 Column Stores    <a name='lec4' />
+
+Readings
+
+* Required: [C-Store: A Column-oriented DBMS ](./files/papers/cstore-vldb05.pdf)
+* Required: [MonetDB/X100: Hyper-Pipelining Query Execution](./files/papers/monetdb-cidr05.pdf)
+* Optional: [Integrating Compression and Execution in Column-Oriented Database Systems](./files/papers/abadi-sigmod2006.pdf)
+* Optional: [An Experimental Study of Bitmap Compression vs. Inverted List Compression](./files/papers/sidm338-wangA.pdf)
+
+
+
+
+* Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
+
+### L5 OLTP Stores    <a name='lec5' />
+
+Readings
+
+* Required: [OLTP Through the Looking Glass, and What We Found There](./files/papers/oltpperf-sigmod08.pdf)
+* Optional: [Hekaton: SQL Server’s Memory-Optimized OLTP Engine](./files/papers/hekaton-sigmod13.pdf)
+
+### L6 Query Compilation    <a name='lec6' />
+
+Readings
+
+* Required: [Efficiently Compiling Efficient Query Plans for Modern Hardware](./files/papers/p539-neumann.pdf)
+* Optional: [How to Architect a Query Compiler, Revisited] (./files/papers/tahboub-sigmod18.pdf)
+* Optional: [Generating code for holistic query evaluation](./files/papers/krikellas-icde2010.pdf)
+* Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](./files/papers/smoke-vldb18.pdf)
+
+### L7 Indexes    <a name='lec7' />
+
+Readings
+
+* Required: [R-Trees: A Dynamic Index Structure for Spatial Searching](./files/papers/rtree-gut84.pdf)
+* Optional: [Generalized Search Trees for Database Systems](./files/papers/gist-vldb95.pdf)
+
+### L8  Joins   <a name='lec8' />
+
+Readings
+
+* Required: [Shapiro: Join Processing in Database Systems with Large Main Memories](./files/papers/gracejoin-shapiro.pdf)
+
+### L9 Distributed Joins    <a name='lec9' />
+
+Readings
+
+* Required: [TrackJoin](./files/papers/trackjoin-sigmod14.pdf)
+
+
+### L10 Exchange Operator    <a name='lec10' />
+
+Readings
+
+* Required: [Encapsulation of parallelism in the volcano query processing system](./files/papers/volcanoparallelism-89.pdf)
+
+### L11  Eddies   <a name='lec11' />
+
+Readings
+
+* Required: [Eddies: Continuously Adaptive Query Processing](./files/papers/eddies-sigmod00.pdf)
+
+### L12 TBA    <a name='lec12' />
+
+### L13 Hybrid Caching/UDFs    <a name='lec13' />
+
+Readings
+
+* Required: [Hybrid Caching](./files/papers/caching-sigmod1996.pdf)
+
+
+### L14 Top-down Optimization    <a name='lec14' />
+
+Readings
+
+* Required: [Volcano Optimizer](./files/papers/volcanooptimizer-icde93.pdf)
+
+
+### L15  RL for Join Optimization   <a name='lec15' />
+
+Readings
+
+* Required: Sanjay Paper
+* Optional: SkinnerDB
+
+
+### L16  Datalog and Recursion   <a name='lec16' />
+
+Readings
+
+* Required: Datalog Survey
+
+### L17  Lineage   <a name='lec17' />
+
+Readings:
+
+* Required: Provenance Semirings
+* Optional: Smoke
+
+### L18  MockPC   <a name='lec18' />
+
+Readings:
+
+* Your assigned papers
+
+
+### L19  MockPC   <a name='lec19' />
+
+Readings:
+
+* Your assigned papers
+
+
+
+### L20 Materialized Views    <a name='lec20' />
+
+
+### L21 Data Cubes    <a name='lec21' />
+
+### L22 Self-tuning DBs    <a name='lec22' />
+
+
+### L23 TBA    <a name='lec23' />
+### L24 TBA    <a name='lec24' />
+### L25 TBA    <a name='lec25' />
+### L26 TBA    <a name='lec26' />
+
+
