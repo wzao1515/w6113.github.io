@@ -66,7 +66,32 @@ Students are expected to be comfortable with a range of programming languages, r
 </table>
 
 
-#### Tentative list of papers
+
+#### Tentative list of papers for last lectures
+
+* Approx Query Processing
+  1. Sampling basics and challenges
+  2. CONTROL, Blink, Sample-and-seek, AQP++
+* Streaming
+  1. Windowed Streaming
+    * DataFlow paper
+    * CQL/Stream project
+    * TelegraphCQ
+  2. Complex event processing
+    * SASE
+* X in DBs
+  * ML in SQL
+    * MADLib
+    * SystemML
+  * Graph in SQL
+    * Jignesh's papers
+    * Vertexica
+* X in DBs
+  1. Vis in SQL
+
+
+
+<!--
 
 Topics will cover a subset of papers from [the redbook](http://www.redbook.io), as well as modern provenance/lineage, data analysis, cleaning, and perhaps databases+ML.
 
@@ -144,7 +169,7 @@ Topics will cover a subset of papers from [the redbook](http://www.redbook.io), 
 * X in DBs
   1. Vis in SQL
 
-
+-->
 <!--
 
 * Distributed Query Processing
