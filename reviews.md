@@ -67,9 +67,9 @@ Submission
 
 Readings
 
-* Required: [Design of Postgres](./files/papers/postgres-retrospective.pdf)
-* Optional: [Design of INGRES](./files/papers/ingres-retrospective.pdf)
+* Required: [Design of INGRES](./files/papers/ingres-retrospective.pdf)
   * Worth skimming: QUEL, leveraging UNIX, concurrency control arguments
+* Optional: [Design of Postgres](./files/papers/postgres-retrospective.pdf)
 
 
 ### L4 Column Stores    <a name='lec4' />
