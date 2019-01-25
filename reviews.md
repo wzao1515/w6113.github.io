@@ -63,7 +63,7 @@ Submission
 * [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/tv0wcPqzvs3hcyNG3)
 
 
-### L3 INGRES/PostGRES    <a name='lec3' />
+### L3 INGRES/POSTGRES    <a name='lec3' />
 
 Readings
 
