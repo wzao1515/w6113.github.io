@@ -6,7 +6,7 @@ layout: page
 
 {% for r in reviews %}
   <p class="review">
-  <h3>{{r.Timestamp}}</h3>
+  <h3>{{r.Timestamp}} {{r.name}}</h3>
 
   {{ r.review | newline_to_br | safe }}
 

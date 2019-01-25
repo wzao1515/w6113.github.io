@@ -74,6 +74,19 @@ Readings
 * Optional: [The Landsharks are on the Squawk Box - Stonebraker Turing Award Lecture](https://cacm.acm.org/magazines/2016/2/197423-the-land-sharks-are-on-the-squawk-box/fulltext)
 
 
+Paper Review 
+
+* What were the main goals for the Postgres system and why do you think they chose those goals?  Do they make sense?
+* Pick one of the (many) ideas in the paper that most interests you.  Why is it interesting?   Does the proposed design hold water?  Feel free to read related work.
+* Note: The format of this review will be different than future reviews because this is a warmup paper
+
+Submission
+
+* Due 6PM EST day before lecture
+* [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/tv0wcPqzvs3hcyNG3)
+
+
+
 ### L4 Column Stores    <a name='lec4' />
 
 Readings
