@@ -67,9 +67,11 @@ Submission
 
 Readings
 
-* Required: [Design of Postgres](./files/papers/postgres-retrospective.pdf)
+* Required: [Design of Postgres (Initial design)](./files/papers/postgres-retrospective.pdf)
+* Optional: [The Postgres Next-Generation DBMS (Midterm design)](./files/papers/postgres-nextgen-cacm.pdf)
 * Optional: [Design of INGRES](./files/papers/ingres-retrospective.pdf)
   * Worth skimming: QUEL, leveraging UNIX, concurrency control arguments
+* Optional: [The Landsharks are on the Squawk Box - Stonebraker Turing Award Lecture](https://cacm.acm.org/magazines/2016/2/197423-the-land-sharks-are-on-the-squawk-box/fulltext)
 
 
 ### L4 Column Stores    <a name='lec4' />
