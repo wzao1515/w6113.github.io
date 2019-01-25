@@ -17,6 +17,7 @@ Students are expected to be comfortable with a range of programming languages, r
 
 #### Recent Announcements
 
+* [Sign up to lead a lecture/paper discussion](https://piazza.com/class/jpqearvq2qq201?cid=11)
 * Added page for [paper reviews](./reviews)
 
 #### Schedule
