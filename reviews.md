@@ -69,6 +69,7 @@ Readings
 
 * Required: [Design of Postgres](./files/papers/postgres-retrospective.pdf)
 * Optional: [Design of INGRES](./files/papers/ingres-retrospective.pdf)
+  * Worth skimming: QUEL, leveraging UNIX, concurrency control arguments
 
 
 ### L4 Column Stores    <a name='lec4' />
