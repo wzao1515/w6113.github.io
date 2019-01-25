@@ -31,6 +31,7 @@ Ask the following questions while readings
 * What is the context of this work?
   * What was the unmet need or opportunity?  Does it make sense?
   * What were existing approaches and why do they work or not work?
+  * What is the simplest example that highlights the problem that this approach works best for?
   * Does the paper (and its contributions) matter?
   * What are the actual hypotheses?
 * Approach
