@@ -13,7 +13,7 @@ We may select a random review to read and discuss in class.  This serves to high
 
 ### Submission
 
-The first review ([System R](#lec2)) is special, so look  at the paper description for submission details.  
+The first reviews ([System R](#lec2), [Postgres](#lec3)) are special, so look at the paper description for submission details.  
 
 
 Otherwise, follow the following instructions: 
