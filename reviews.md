@@ -100,8 +100,6 @@ Readings
 
 
 
-
-
 ### L5 OLTP Stores    <a name='lec5' />
 
 Readings
@@ -114,7 +112,7 @@ Readings
 Readings
 
 * Required: [Efficiently Compiling Efficient Query Plans for Modern Hardware](./files/papers/p539-neumann.pdf)
-* Optional: [How to Architect a Query Compiler, Revisited] (./files/papers/tahboub-sigmod18.pdf)
+* Optional: [How to Architect a Query Compiler, Revisited](./files/papers/tahboub-sigmod18.pdf)
 * Optional: [Generating code for holistic query evaluation](./files/papers/krikellas-icde2010.pdf)
 * Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](./files/papers/smoke-vldb18.pdf).  An application of query compilation.
 

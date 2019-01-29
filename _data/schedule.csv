@@ -1,7 +1,7 @@
 color,date,slug,presenter,readings,optional,assigned,due
 #fdf3fd,22-Jan,"<a href=""./lecs/01_intro"">Intro</a>",,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw0.md"">HW0</a> (weds)",
 #fdf3fd,24-Jan,"<a href=""./lecs/02_dbprimer"">System R overview</a><br/><a href=""./reviews#lec2"">Submit review here</a>",,"<a href=""./files/papers/systemr-retrospective.pdf"">System R Retrospective</a>","<a href=""./files/papers/ingres-retrospective.pdf"">Ingres Design</a>",,HW0 1/27 11:59PM
-white,29-Jan,<a href=""./lecs/03_postgres"">Ingres/Postgres</a>,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw1.md"">HW1</a> (weds)",
+white,29-Jan,"<a href=""./lecs/03_postgres"">Ingres/Postgres</a>",Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw1.md"">HW1</a> (weds)",
 white,31-Jan,Column Stores,Wu,,,,
 #fdf3fd,5-Feb,OLTP engines,Wu,,,,
 #fdf3fd,7-Feb,Query Compilation,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw2.md"">HW2</a> ",HW1
