@@ -7,6 +7,7 @@
 * [Syllabus](./syllabus)
 * [Piazza](https://piazza.com/class/jpqearvq2qq201)
 * [Project](./projects)
+* [Papers](./reviews)
 
 
 #### Prereqs
