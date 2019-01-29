@@ -93,14 +93,14 @@ Submission
 Readings
 
 * Required: [C-Store: A Column-oriented DBMS ](./files/papers/cstore-vldb05.pdf)
-* Required: [MonetDB/X100: Hyper-Pipelining Query Execution](./files/papers/monetdb-cidr05.pdf)
+* Optional: [MonetDB/X100: Hyper-Pipelining Query Execution](./files/papers/monetdb-cidr05.pdf)
 * Optional: [Integrating Compression and Execution in Column-Oriented Database Systems](./files/papers/abadi-sigmod2006.pdf)
 * Optional: [An Experimental Study of Bitmap Compression vs. Inverted List Compression](./files/papers/sidm338-wangA.pdf)
+* Optional: [Survey: The Design and Implementation of Modern Column-Oriented Database Systems](http://db.csail.mit.edu/pubs/abadi-column-stores.pdf)
 
 
 
 
-* Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
 
 ### L5 OLTP Stores    <a name='lec5' />
 
@@ -116,7 +116,7 @@ Readings
 * Required: [Efficiently Compiling Efficient Query Plans for Modern Hardware](./files/papers/p539-neumann.pdf)
 * Optional: [How to Architect a Query Compiler, Revisited] (./files/papers/tahboub-sigmod18.pdf)
 * Optional: [Generating code for holistic query evaluation](./files/papers/krikellas-icde2010.pdf)
-* Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](./files/papers/smoke-vldb18.pdf)
+* Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](./files/papers/smoke-vldb18.pdf).  An application of query compilation.
 
 ### L7 Indexes    <a name='lec7' />
 
@@ -135,7 +135,8 @@ Readings
 
 Readings
 
-* Required: [TrackJoin](./files/papers/trackjoin-sigmod14.pdf)
+* Required: [Parallel Database systems: the future of high performance database systems](./files/papers/paralleldbsystems-dewitt)
+* Optional: [TrackJoin](./files/papers/trackjoin-sigmod14.pdf)
 
 
 ### L10 Exchange Operator    <a name='lec10' />
@@ -149,6 +150,7 @@ Readings
 Readings
 
 * Required: [Eddies: Continuously Adaptive Query Processing](./files/papers/eddies-sigmod00.pdf)
+* Optional: [TelegraphCQ: Continuous Dataflow Processing for an Uncertain World](http://db.csail.mit.edu/madden/html/TCQcidr03.pdf)
 
 ### L12 TBA    <a name='lec12' />
 
@@ -157,6 +159,7 @@ Readings
 Readings
 
 * Required: [Hybrid Caching](./files/papers/caching-sigmod1996.pdf)
+* Optional: [Exploiting Correlations for Expensive Predicate Evaluation](https://arxiv.org/pdf/1411.3374.pdf)
 
 
 ### L14 Top-down Optimization    <a name='lec14' />
@@ -170,22 +173,23 @@ Readings
 
 Readings
 
-* Required: Sanjay Paper
-* Optional: SkinnerDB
+* Required: [Learning to Optimize Join Queries With Deep Reinforcement Learning](https://arxiv.org/pdf/1808.03196.pdf)
+* Optional: [SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning](https://arxiv.org/pdf/1901.05152.pdf)
 
 
 ### L16  Datalog and Recursion   <a name='lec16' />
 
 Readings
 
-* Required: Datalog Survey
+* Required: [Datalog and Recursive Query Processing](https://www.nowpublishers.com/article/Details/DBS-017) Chapters 2, 3
+* Optional: [Evita Raced: Metacompilation for Declarative Networks](http://www.vldb.org/pvldb/1/1453978.pdf): query optimization AS datalog
 
 ### L17  Lineage   <a name='lec17' />
 
 Readings:
 
-* Required: Provenance Semirings
-* Optional: Smoke
+* Required: [Provenance Semirings](http://users.ics.forth.gr/~gregkar/publications/pods2007.pdf)
+* Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](http://www.vldb.org/pvldb/vol11/p719-psallidas.pdf)
 
 ### L18  MockPC   <a name='lec18' />
 
@@ -209,6 +213,9 @@ Readings:
 
 ### L22 Self-tuning DBs    <a name='lec22' />
 
+* Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
+* Optional: [Query-based Workload Forecasting for Self-Driving Database Management Systems](https://www.cs.cmu.edu/~dvanaken/papers/forecasting-sigmod18.pdf)
+* Optional: [Database Cracking](https://stratos.seas.harvard.edu/files/IKM_CIDR07.pdf)
 
 ### L23 TBA    <a name='lec23' />
 ### L24 TBA    <a name='lec24' />
