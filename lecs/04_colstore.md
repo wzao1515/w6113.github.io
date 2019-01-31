@@ -4,7 +4,7 @@ layout: page
 
 # Reviews
 
-Linke to [annotated reviews and student reviews](../exreviews_04)
+Link to [annotated reviews and student reviews](../exreviews_04)
 
 
 * summary covers breadth
