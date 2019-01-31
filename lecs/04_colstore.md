@@ -1,5 +1,8 @@
 # Reviews
 
+Linke to [annotated reviews and student reviews](../exreviews_04)
+
+
 * summary covers breadth
 * details, strengths, weaknesses cover depth: picking a few things and doing deep on the details and comments
 * comments on the ideas and design choices, not necessarily the writing
