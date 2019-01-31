@@ -2,6 +2,7 @@
 layout: index
 ---
 
+
 #### Overview
 
 This course is intended as an advanced graduate-level course in database systems research.  
@@ -24,13 +25,18 @@ Students are expected to be comfortable with a range of programming languages, r
 #### Schedule
 
 
+<style>
+.presenter { }
+</style>
+
 <table class="table table-striped schedule">
   <thead>
   <tr>
     <!--<th class="idx" style="width: 3em; max-width:3em;"></th>-->
     <th class="date" style="width: 4em; max-width: 4em;"> <p> <span>Date </span> </p> </th>
     <th style="min-width: 15%;"> <p> <span>Topic </span> </p> </th>
-    <th style="width: 30%"> <p> <span>Readings </span> </p> </th>
+    <th style="width: 10%"> <p> <span>Notes </span> </p> </th>
+    <th style="width: 10%"> <p> <span>Readings </span> </p> </th>
     <th style="width: 15%;"> <p> <span>Assigned</span> </p> </th>
     <th style="width: 15%;"> <p> <span>Due</span> </p> </th>
   </tr>
@@ -41,25 +47,22 @@ Students are expected to be comfortable with a range of programming languages, r
   {% assign idx = idx | plus: 1  %}
   <tr style="background-color: {{r.color}}; ">
     <!--<td class="idx">L{{idx}}</td>-->
-    <td class="date">{{r.date}}</td>
+    <td class="date">L{{idx}}: {{r.date}}</td>
     <td class="slug">
-      {% if r.link %}<a href="{{r.link}}">{% endif %}
-        {{r.slug}}
-      {% if r.link %}</a> {% endif %}
+      <b>{{r.slug}}</b>
       {% if r.presenter %}
         <br/>
-        Presenter: {{r.presenter}}
+        <span class='presenter'>Presenter: {{r.presenter}}</span>
       {% endif %}
 
       </td>
-    <td class="readings">
-      {% if r.readings %}
-        {{r.readings | safe}}
+    <td class="notes">
+      {% if r.link %}
+        <a href="{{r.link}}">Notes</a>
       {% endif %}
-      {% if r.optional %}
-        <br/>
-        Optional: {{r.optional | safe}}
-      {% endif%}
+    </td>
+    <td class="readings">
+      <a href="./reviews#lec{{idx}}">Readings</a>
     </td>
     <td>{{r.assigned | safe}}</td>
     <td>{{r.due | safe}}</td>

@@ -43,7 +43,8 @@ Ask the following questions while readings
 # The Papers
 
 
-### L2 System R Overview <a name="lec2"/>
+<a name="lec2"/>
+### System R Overview 
 
 Readings 
 
@@ -64,7 +65,8 @@ Submission
 * [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/tv0wcPqzvs3hcyNG3)
 
 
-### L3 INGRES/POSTGRES    <a name='lec3' />
+<a name='lec3' />
+### INGRES/POSTGRES    
 
 Readings
 
@@ -88,7 +90,8 @@ Submission
 
 
 
-### L4 Column Stores    <a name='lec4' />
+<a name='lec4' />
+### Column Stores    
 
 Readings
 
@@ -98,17 +101,22 @@ Readings
 * Optional: [An Experimental Study of Bitmap Compression vs. Inverted List Compression](./files/papers/sidm338-wangA.pdf)
 * Optional: [Column-Stores vs. Row-Stores: How Different Are They Really?](http://db.csail.mit.edu/projects/cstore/abadi-sigmod08.pdf)
 * Optional: [Survey: The Design and Implementation of Modern Column-Oriented Database Systems](http://db.csail.mit.edu/pubs/abadi-column-stores.pdf)
+* Optional: [Blog Post: 40x faster hash joiner with vectorized execution](https://www.cockroachlabs.com/blog/vectorized-hash-joiner/)
 
 
 
-### L5 OLTP Stores    <a name='lec5' />
+<a name='lec5' />
+### OLTP Stores    
 
 Readings
 
 * Required: [OLTP Through the Looking Glass, and What We Found There](./files/papers/oltpperf-sigmod08.pdf)
 * Optional: [Hekaton: SQL Server’s Memory-Optimized OLTP Engine](./files/papers/hekaton-sigmod13.pdf)
 
-### L6 Query Compilation    <a name='lec6' />
+
+
+<a name='lec6' />
+### Query Compilation    
 
 Readings
 
@@ -117,20 +125,30 @@ Readings
 * Optional: [Generating code for holistic query evaluation](./files/papers/krikellas-icde2010.pdf)
 * Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](./files/papers/smoke-vldb18.pdf).  An application of query compilation.
 
-### L7 Indexes    <a name='lec7' />
+
+
+<a name='lec7' />
+### Indexes    
 
 Readings
 
 * Required: [R-Trees: A Dynamic Index Structure for Spatial Searching](./files/papers/rtree-gut84.pdf)
 * Optional: [Generalized Search Trees for Database Systems](./files/papers/gist-vldb95.pdf)
 
-### L8  Joins   <a name='lec8' />
+
+
+<a name='lec8' />
+### Joins   
 
 Readings
 
 * Required: [Shapiro: Join Processing in Database Systems with Large Main Memories](./files/papers/gracejoin-shapiro.pdf)
+* Optional: [Ripple Joins for Online Aggregation](http://www.cs.cmu.edu/~natassa/courses/15-823/F02/papers/decision-ripple-sigmod99.pdf)
 
-### L9 Distributed Joins    <a name='lec9' />
+
+
+<a name='lec9' />
+### Distributed Joins    
 
 Readings
 
@@ -138,22 +156,26 @@ Readings
 * Optional: [TrackJoin](./files/papers/trackjoin-sigmod14.pdf)
 
 
-### L10 Exchange Operator    <a name='lec10' />
+<a name='lec10' />
+### Exchange Operator    
 
 Readings
 
 * Required: [Encapsulation of parallelism in the volcano query processing system](./files/papers/volcanoparallelism-89.pdf)
+* Optional: [SEDA: An Architecture for Well-Conditioned, Scalable Internet Services](http://www.sosp.org/2001/papers/welsh.pdf)
 
-### L11  Eddies   <a name='lec11' />
+<a name='lec11' />
+### Eddies  
 
 Readings
 
 * Required: [Eddies: Continuously Adaptive Query Processing](./files/papers/eddies-sigmod00.pdf)
 * Optional: [TelegraphCQ: Continuous Dataflow Processing for an Uncertain World](http://db.csail.mit.edu/madden/html/TCQcidr03.pdf)
 
-### L12 TBA    <a name='lec12' />
 
-### L13 Hybrid Caching/UDFs    <a name='lec13' />
+
+<a name='lec12' />
+### Hybrid Caching/UDFs    
 
 Readings
 
@@ -161,14 +183,17 @@ Readings
 * Optional: [Exploiting Correlations for Expensive Predicate Evaluation](https://arxiv.org/pdf/1411.3374.pdf)
 
 
-### L14 Top-down Optimization    <a name='lec14' />
+<a name='lec13' />
+### Top-down Optimization    
 
 Readings
 
 * Required: [Volcano Optimizer](./files/papers/volcanooptimizer-icde93.pdf)
+* Optional: [Cascades](./files/papers/cascades-graefe.pdf)
 
 
-### L15  RL for Join Optimization   <a name='lec15' />
+<a name='lec14' />
+### RL for Join Optimization   
 
 Readings
 
@@ -176,28 +201,42 @@ Readings
 * Optional: [SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning](https://arxiv.org/pdf/1901.05152.pdf)
 
 
-### L16  Datalog and Recursion   <a name='lec16' />
+<a name='lec15' />
+### Datalog and Recursion   
 
 Readings
 
 * Required: [Datalog and Recursive Query Processing](https://www.nowpublishers.com/article/Details/DBS-017) Chapters 2, 3
 * Optional: [Evita Raced: Metacompilation for Declarative Networks](http://www.vldb.org/pvldb/1/1453978.pdf): query optimization AS datalog
 
-### L17  Lineage   <a name='lec17' />
+
+
+<a name='lec16' />
+### Lineage   
 
 Readings:
 
 * Required: [Provenance Semirings](http://users.ics.forth.gr/~gregkar/publications/pods2007.pdf)
 * Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](http://www.vldb.org/pvldb/vol11/p719-psallidas.pdf)
 
-### L18  MockPC   <a name='lec18' />
+<a name='lec17' />
+### Exploration / TBA 
+
+Readings: TBA
+
+<a name='lec18' />
+### TBA 
+
+<a name='lec19' />
+### MockPC  
 
 Readings:
 
 * Your assigned papers
 
 
-### L19  MockPC   <a name='lec19' />
+<a name='lec20' />
+### MockPC  
 
 Readings:
 
@@ -205,20 +244,26 @@ Readings:
 
 
 
-### L20 Materialized Views    <a name='lec20' />
+<a name='lec21' />
+### Materialized Views    
+
+* Required: [Survey: Materialized Views](./files/papers/matview-survey.pdf)
+* Optional: [Noria: dynamic, partially-stateful data-flow for high-performance web applications](https://pdos.csail.mit.edu/papers/noria:osdi18.pdf)
 
 
-### L21 Data Cubes    <a name='lec21' />
+<a name='lec22' />
+### Data Cubes    
 
-### L22 Self-tuning DBs    <a name='lec22' />
+* Required: [Data Cube](./files/papers/datacube-jimgray.pdf)
+* Optional: [Implementing Data Cubes Efficiently](http://ilpubs.stanford.edu:8090/102/1/1995-34.pdf)
+* Optional: [Explaining differences in multidimensional aggregates](./files/papers/olapdiff-sunita.pdf)
+
+<a name='lec23' /> 
+### Self-tuning DBs  
 
 * Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
 * Optional: [Query-based Workload Forecasting for Self-Driving Database Management Systems](https://www.cs.cmu.edu/~dvanaken/papers/forecasting-sigmod18.pdf)
 * Optional: [Database Cracking](https://stratos.seas.harvard.edu/files/IKM_CIDR07.pdf)
 
-### L23 TBA    <a name='lec23' />
-### L24 TBA    <a name='lec24' />
-### L25 TBA    <a name='lec25' />
-### L26 TBA    <a name='lec26' />
 
 
