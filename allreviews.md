@@ -5,6 +5,10 @@ layout: page
 p.review {
   border-left: 2px solid grey;
 }
+
+div.block {
+  margin-bottom: 1em;
+}
 </style>
 
 {% assign reviews = site.data.reviews | reverse %}
@@ -14,13 +18,10 @@ p.review {
   <p class="review">
   <h3>{{r.Timestamp}} {{r.Name}}</h3>
 
-  {{ r.summary | newline_to_br | safe }}
-  <br/>
-  {{ r.strengths | newline_to_br | safe }}
-  <br/>
-  {{ r.weaknesses | newline_to_br | safe }}
-  <br/>
-  {{ r.details | newline_to_br | safe }}
+  <div class="block">{{ r.summary | newline_to_br | safe }}</div>
+  <div class="block">{{ r.strengths | newline_to_br | safe }}</div>
+  <div class="block">{{ r.weaknesses | newline_to_br | safe }}</div>
+  <div class="block">{{ r.details | newline_to_br | safe }}</div>
 
   </p>
   <hr/>
