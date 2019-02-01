@@ -18,6 +18,7 @@ Students are expected to be comfortable with a range of programming languages, r
 
 #### Recent Announcements
 
+* Updated [Projects page](./projects) with project milestones and a few example projects.
 * Uploaded [list of students that successfully completed HW0 and can enroll in the course](./md5s)
 * [Sign up to lead a lecture/paper discussion](https://piazza.com/class/jpqearvq2qq201?cid=11)
 * Added page for [paper reviews](./reviews)
