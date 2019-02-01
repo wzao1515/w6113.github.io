@@ -89,11 +89,11 @@ Students are expected to be comfortable with a range of programming languages, r
   * ML in SQL
     * MADLib
     * SystemML
+    * Learning over joins
   * Graph in SQL
     * Jignesh's papers
     * Vertexica
-* X in DBs
-  1. Vis in SQL
+  * Vis in SQL
 
 
 

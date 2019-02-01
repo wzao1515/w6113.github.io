@@ -1,29 +1,29 @@
 color,date,slug,link,presenter,readings,optional,assigned,due
-#fdf3fd,1/22,Intro,./lecs/01_intro,,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw0.md"">HW0</a> (weds)",
-#fdf3fd,1/24,System R overview,./lecs/02_dbprimer,,"<a href=""./files/papers/systemr-retrospective.pdf"">System R Retrospective</a>","<a href=""./files/papers/ingres-retrospective.pdf"">Ingres Design</a>",,HW0 1/27 11:59PM
-white,1/29,Ingres/Postgres,./lecs/03_postgres,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw1.md"">HW1</a> (weds)",
-white,1/31,Column Stores,./lecs/04_colstore,Wu,,,,
-#fdf3fd,2/5,OLTP engines,,Wu,,,,
-#fdf3fd,2/7,Query Compilation,,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw2.md"">HW2</a> ",HW1
-white,2/12,Multi-dim Indexes,,Wu,,,,
-white,2/14,Single machine joins,,-,,,,Prospectus
-#fdf3fd,2/19,Distributed joins,,Xinyue Wang,,,,
-#fdf3fd,2/21,Volcano Exchange,,-,,,,
-white,2/26,Eddies,,-,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw3.md"">HW3</a>",HW2
-white,2/28,Hybrid Caching/UDFs,,-,,,,
-#fdf3fd,3/5,Volcano/Cascades Optimizer,,Haneen,,,,
-#fdf3fd,3/7,RL for Join Optimization,,-,,,,
-white,3/12,Datalog and Recursion,,Jennifer Bi,,,,
-white,3/14,Lineage,,Yiliang Shi,,,,HW3<br/>Paper Draft
-#fdf3fd,3/26,Exploration / TBA,,Ziao Wang,,,,
-#fdf3fd,3/28,Fast Scans,,-,,,,
-white,4/2,Mock PC,,-,,,,Mock PC
-white,4/4,Mock PC,,-,,,,Mock PC
-#fdf3fd,4/9,Materialized Views,,-,,,,
-#fdf3fd,4/11,Datacubes,,Yiru Chen,,,,
-white,4/16,Self-tuning DBs,,Dean Deng,,,,
-white,4/18,Approximate Query Processing,,-,,,,
-#fdf3fd,4/23,TBA,,-,,,,
-#fdf3fd,4/25,TBA,,-,,,,
-white,4/30,TBA,,-,,,,
-white,5/2,,,-,,,,Project Report
+#fdf3fd,22-Jan,Intro,./lecs/01_intro,,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw0.md"">HW0</a> (weds)",
+#fdf3fd,24-Jan,System R overview,./lecs/02_dbprimer,,"<a href=""./files/papers/systemr-retrospective.pdf"">System R Retrospective</a>","<a href=""./files/papers/ingres-retrospective.pdf"">Ingres Design</a>",,HW0 1/27 11:59PM
+white,29-Jan,Ingres/Postgres,./lecs/03_postgres,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw1.md"">HW1</a> (weds)",
+white,31-Jan,Column Stores,./lecs/04_colstore,Wu,,,,
+#fdf3fd,5-Feb,OLTP engines,,Wu,,,,
+#fdf3fd,7-Feb,Query Compilation,,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw2.md"">HW2</a> ",HW1
+white,12-Feb,Multi-dim Indexes,,Wu,,,,
+white,14-Feb,Single machine joins,,-,,,,"<a href=""https://w6113.github.io/projects"">Prospectus</a>"
+#fdf3fd,19-Feb,Distributed joins,,Xinyue Wang,,,,
+#fdf3fd,21-Feb,Volcano Exchange,,-,,,,
+white,26-Feb,Eddies,,-,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw3.md"">HW3</a>",HW2
+white,28-Feb,Hybrid Caching/UDFs,,-,,,,
+#fdf3fd,5-Mar,Volcano/Cascades Optimizer,,Haneen,,,,
+#fdf3fd,7-Mar,RL for Join Optimization,,-,,,,
+white,12-Mar,Datalog and Recursion,,Jennifer Bi,,,,
+white,14-Mar,Lineage,,Yiliang Shi,,,,HW3<br/>Paper Draft
+#fdf3fd,26-Mar,Exploration / TBA,,Ziao Wang,,,,
+#fdf3fd,28-Mar,Fast Scans,,-,,,,Reviews (3/28)
+white,2-Apr,Mock PC,,-,,,,Mock PC
+white,4-Apr,Mock PC,,-,,,,Mock PC
+#fdf3fd,9-Apr,Materialized Views,,-,,,,
+#fdf3fd,11-Apr,Datacubes,,Yiru Chen,,,,
+white,16-Apr,Self-tuning DBs,,Dean Deng,,,,
+white,18-Apr,Approximate Query Processing,,-,,,,
+#fdf3fd,23-Apr,TBA,,,,,,
+#fdf3fd,25-Apr,TBA,,,,,,
+white,30-Apr,Presentation (?),,,,,,Presentation (?)
+white,2-May,,,,,,,Project Report
