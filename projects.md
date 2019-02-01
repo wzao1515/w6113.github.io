@@ -9,15 +9,20 @@ title: W6113 Research Project
 
 Percentages are of your total class grade.
 
-* Prospectus       TBA    (10%)
-* Mock PC  TBA (10%)
-* Presentation   TBA    (10%)
-* Report          TBA     (40%)
+* Prospectus      2/14    (10%)
+* Paper Draft     3/14    (5%)
+* Mock PC         4/2, 4/4  (5%)
+* Presentation    4/30    (10%)
+* Report          5/2     (40%)
+
+
 
 #### Overview
 
-
 The major portion of your grade is based on the research project. Students will organize into teams of 1-3 students and work on a research project.  It should take about 3-4 weeks to complete.  Some possible ideas are [described below](#suggestions).
+
+Teams should consist of 1-3 people. In addition, if you have a project in mind, please indicate briefly (1--2 sentences) what you are thinking. We have included a list of possible projects at the end of this document although you are not required to choose from these.
+
 
 Good class projects can vary dramatically in complexity, scope, and topic. The only requirement is that they be related to something we have studied in this class and that they contain some element of research -- e.g., that you do more than simply engineer a piece of software that someone else has described or architected. To help you determine if your idea is of reasonable scope, we will arrange to meet with each group several times throughout the semester.
 
@@ -37,42 +42,41 @@ Teams can meet with the instructor after their presentations for further discuss
 -->
 
 
-<!-- Teams should consist of 1-3 people. In addition, if you have a project in mind, please indicate briefly (1--2 sentences) what you are thinking. We have included a list of possible projects at the end of this document although you are not required to choose from these. -->
 
 <!-- [Click here to submit before class on 2/1](https://goo.gl/forms/j8aXKKtjxH0rzVgx2) -->
 
 
 #### Prospectus 
 
-Your reserach prospectus will contain an overview of the research problem, _your hypothesis_, first pass at related work, a description of how you plan to complete the project, and metrics to decide _if it worked_.   
+Your research prospectus will contain an overview of the research problem, _your hypothesis_, first pass at related work, a description of how you plan to complete the project, and metrics to decide _if it worked_.   
 
 Your prospectus should follow the example:
 
 * [Click here for an example prospectus](./files/prospectus/prospectus.pdf)
 * [Click here for the tex files](https://github.com/w6113/w6113.github.io/tree/master/files/prospectus)
 
-Submission:
+**Submission**
 
 1. Rename the filename of your prospectus to the following format, last names should be in **alphabetical order**. `prospectus_<UNI>_.._<UNIn>.pdf`
-2. [**Click here to upload the file**](https://www.dropbox.com/request/Opyk8ALWnSyYEin0ZHKs)
+2. [**Click here to upload the file by 2/14 11:59PM EST**](https://www.dropbox.com/request/Opyk8ALWnSyYEin0ZHKs)
 
 
 <a name="midpoint"></a>
 #### Mock PC Meeting
 
-The midpoint review will be an in-class exercise where teams will present and receive feedback/suggestions in a "speed-dating" style session.  Details will be released closer to the session.
+We will spend two class sessions running a mock program committee (PC) meeting.  The timeline for this will be as follows:
 
-Meet with your counterpart for 20 minutes - 10 minutes per team.  One team will describe the goal of their project and the current status and challenges, and the other team will listen and provide comments.
+* **3/14 11:59PM EST** Submit a draft of your paper to CMT **[using the ACM proceedings LaTeX template](https://www.acm.org/publications/proceedings-template)**.   The draft should be a fleshed out version of your prospectus, with substantially more technical details and a sketch of your experiments.
+* **3/15** You will be assigned 3-4 papers to review, and serve as the "lead" for one.  The review format will be the same as the reviews throughout the semester.
+* **3/29 11:59PM EST** You will submit your reviews to CMT.   Read the other reviews for your assigned papers over the weekend.  
+* **4/2 - 4/4** We will discuss each paper based on the reviews (authors will step out of the room).  Each reviewer will argue their view on the paper, and try to reach a consensus.  The lead is responsible for running the discussion.   The lead will also summarize the discussion/outcome into a meta review.  
 
-For the listening team, ask and provide answers to the following questions:
+**Submission**
 
-1. What opportunities/changes that make this work useful and timely? 
-2. Why existing approaches fail to make use of these opportunities? 
-3. What is the hypothesis?
-4. What are the concrete steps to validate the hypothesis?
-5. What suggestions did you, as the listener, provide?
+* [CMT website](https://cmt3.research.microsoft.com/w6113).  MAKE SURE YOU USE THE CORRECT TEMPLATE.
 
-#### Poster Session
+#### Poster Session (TBA)
+
 Your team will prepare and present a project poster at the end-of-course poster session.   This gives you an opportunity to present a short demo of your work and show what you have accomplished in the class!
 
 **Submission**
@@ -81,20 +85,39 @@ Your team will prepare and present a project poster at the end-of-course poster 
 
 #### Report
 
-You will prepare a conference-style report on your project with **maximum length** of 15 pages (10 pt font or larger, one or two columns, 1 inch margins, single or double spaced -- more is not better.) Your report should expand upon your prospectus and introduce and motivate the problem your project addresses, describe related work in the area, discuss the elements of your solution, and present results that measure the behavior, performance, or functionality of your system (with comparisons to other related systems as appropriate.)
+You will prepare a conference-style report on your project with **maximum length** of 12 pages (10 pt font or larger, one or two columns, 1 inch margins, single or double spaced -- more is not better.) Your report should expand upon your prospectus and introduce and motivate the problem your project addresses, describe related work in the area, discuss the elements of your solution, and present results that measure the behavior, performance, or functionality of your system (with comparisons to other related systems as appropriate.)
 
 Because this report is the primary deliverable upon which you will be graded, **do not treat it as an afterthought**. Plan to leave at least a week to do the writing, and make sure your proofread and edit carefully!
 
 **Submission**
 
 1. Rename the filename of your report to the following format, last names should be in alphabetical order. `report_<lastname1>_<lastname2>.._<lastnameN>.pdf`
-2. [**Click here to upload the file by 4/30 11:59PM EST**](https://www.dropbox.com/request/9zdikb92vHFFPYtaFF0e)
+2. [**Click here to upload the file by 5/2 11:59PM EST**](https://www.dropbox.com/request/9zdikb92vHFFPYtaFF0e)
 
 
 <a name="suggestions"></a>
 ## Project Suggestions
 
-TBA
+
+
+#### In-Network Query Processing
+
+Contact Arpit Gupta if interested: glex.qsd@gmail.com
+
+To keep the networks running, network operators need to monitor a wide range of network activities. For example, they need to concurrently detect whether the network is under attack and also determine whether there is a device failure in the network. This involves extracting multiple features from the traffic data and combining them to infer network events in real time. 
+
+[Sonata (SIGCOMM’18)](https://sonata.cs.princeton.edu/) is an expressive and scalable telemetry system that coordinates joint collection and analysis of network traffic. Sonata provides a declarative interface to express a wide range of common telemetry tasks as dataflow queries. To scale execution, Sonata partitions each query across the programmable switch (e.g., [Barefoot Tofino](https://barefootnetworks.com/products/brief-tofino/)) and the stream processor---offloading as much data processing as possible to the switch. To optimize the use of limited switch memory, Sonata dynamically refines each query over time to ensure that available resources focus only on traffic that satisfies the query. 
+
+Possible directions:
+* **Scalable and adaptive query planning**: Currently, Sonata’s query-planning module takes raw packet traces as input and then executes the input queries for all possible refinement and partitioning plans to estimate their memory requirement and compute overhead. It then takes these estimates as input to compute the optimal query plan using an integer linear program (ILP). This approach is not scalable as the number of queries or the size of input packet traces increases. Also, it assumes that the input packet traces are representative of the future traffic. This assumption leads to inefficient utilization of limited network resources as traffic patterns change over time. Thus, students can explore the design of a query-planning algorithm that scales better and is adaptive to changes in traffic dynamics.
+* **Efficient query compilation**: Currently, Sonata compiles a DAG of dataflow operators for a query into DAG of match-action tables (MATs) in the switch. The compiler needs to specify the memory required for the stateful operations during the compilation. Reconfiguring the switch is expensive, so currently, it is not possible to dynamically update the memory allocation for stateful operations over time. Thus, students can explore the design of new data structures and compilation algorithms that enable dynamically reallocating switch resources (memory) for different queries over time. 
+* **Query-planning for network-wide settings**: Currently, Sonata is only designed for a single site in the network, such a border router or an Internet exchange point. Students can explore the design of a system that executes network telemetry queries for network-wide settings---partitioning and refining the input queries across multiple switches in the network. 
+
+
+
+
+
+
 
 
 <!--
