@@ -22,8 +22,9 @@
 
 * [Project](./projects) <small>70%</small>
   * Prospectus <small>10%</small>
-  * Mock PC <small>10%</small>
-  * Presentation <small>10%</small>
+  * Paper Draft <small>5%</small>
+  * Mock PC <small>5%</small>
+  * Demo/Poster <small>10%</small>
   * Paper <small>40%</small>
 * [Participation](./syllabus#participation)  <small>15%</small>    
   Inc. [paper reviews](./syllabus#reading)
