@@ -3,8 +3,6 @@ layout: page
 title: W6113 Research Project
 ---
 
-<center>(This page is in flux)</center>
-
 #### Important Dates 
 
 Percentages are of your total class grade.
