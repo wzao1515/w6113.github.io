@@ -93,6 +93,7 @@ Students are expected to be comfortable with a range of programming languages, r
   * Graph in SQL
     * Jignesh's papers
     * Vertexica
+    * RecStep
   * Vis in SQL
 
 
