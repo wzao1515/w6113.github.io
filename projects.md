@@ -3,6 +3,14 @@ layout: page
 title: W6113 Research Project
 ---
 
+<style>
+.cool {
+  background-color: steelblue;
+  color: white;
+  text-weight: bold;
+}
+</style>
+
 #### Important Dates 
 
 Percentages are of your total class grade.
@@ -116,16 +124,6 @@ The following are examples of possible projects -- they are by no means a comple
 
 [DeepBase](https://medium.com/thewulab/deep-neural-inspection-with-deepbase-de3653257643) is a system to perform deep neural inspection: it extracts hidden unit activations (or other types of behaviors) and computes the statistical relationships with user-specified hypotheses.    However, hypotheses are currently represented as independent vectors/matrices and processed one at a time (essentially).    Since most hypotheses are binary or have a restricted value range, there may be opportunity for bit-level packing and shared processing.  
 
-#### Query-based Graph Visualization
-
-Graphs are fundamentally high dimensional, and generating good graph visualizations is still an unsolved problem.  There are plenty of ways to visualize a graph---as a matrix, as a node-link layout (with many mayn layout algorithms), as histograms, and so on.  Suppose you know what analysis _queries_ (e.g., recursive SQL queries, or a query workload) have been run on the graph.  Can those queries be analyzed to recommend the appropriate visualization?
-
-#### New Querying Interfaces
-
-[Scalable](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Wu-drucker-QueryingVideos.pdf),
-[Image](http://cidrdb.org/cidr2019/papers/p141-kang-cidr19.pdf),
-[Databases](http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf) are on the horizon.  However, a major limitation is that the query interface is incredibly impoverished.  How do you specify that you want to find red cars that move along a trajectory?  Or to look for relationships between two objects over time?  Certainly not by writing SQL-like text queries.   The challenge is that video is fundamentally 3D, but query interfaces are 1D.  However,  where videos can be directly rendered as a 3D object in VR.  What does a query language look like if designed for VR?  What types of joins, or filtering, make sense?  You should have VR experience.   
-
 
 #### Lineage 
 
@@ -134,6 +132,13 @@ Graphs are fundamentally high dimensional, and generating good graph visualizati
 * There are a number of compression techniques that are possible to reduce the storage costs, but they have trade-offs in terms of storage reduction vs write overhead vs lineage query lookup costs.  Explore ways to generate compressed representations that do not increase, or even reduce the overhead of lineage capture.
 * [Smoke](https://arxiv.org/abs/1801.07237) is a query compiler instrumented to generate lineage.  It is written in C++, and emits C++.  If the goal is to compile queries into C++ (or C), a high level language like Python may be easier to program in.  Report on the benefits (or weaknesses) of using a high-level dynamic language to write a query compiler.  Python interoperates well with C -- are there opportunities to dynamically compile queries into C and link it into the same Python process?
 * The [Smoke HILDA paper](https://www.dropbox.com/s/fkp5hk1gp4lrg9h/smoke-hilda18.pdf?dl=0) envisioned a world where any interactive applications built on top of a lineage-supporting data store can inter-operate with any other application.  No longer are applications siloed!  Data selected, analyzed, and annotated in any application should be connected to any other application!  This requires connecting the core functionality in Smoke with application level lineage support and tracking.  Is there a simple app toolkit/library, with a small set of primitives, that could make it easy to build applications that enable this vision?  Is something like react or elm a good fit?
+
+
+#### New Querying Interfaces
+
+[Scalable](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Wu-drucker-QueryingVideos.pdf),
+[Image](http://cidrdb.org/cidr2019/papers/p141-kang-cidr19.pdf),
+[Databases](http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf) are on the horizon.  However, a major limitation is that the query interface is incredibly impoverished.  How do you specify that you want to find red cars that move along a trajectory?  Or to look for relationships between two objects over time?  Certainly not by writing SQL-like text queries.   The challenge is that video is fundamentally 3D, but query interfaces are 1D.  However,  where videos can be directly rendered as a 3D object in VR.  What does a query language look like if designed for VR?  What types of joins, or filtering, make sense?  You should have VR experience.   
 
 #### In-Network Query Processing
 
@@ -147,6 +152,10 @@ Possible directions:
 * **Scalable and adaptive query planning**: Currently, Sonata’s query-planning module takes raw packet traces as input and then executes the input queries for all possible refinement and partitioning plans to estimate their memory requirement and compute overhead. It then takes these estimates as input to compute the optimal query plan using an integer linear program (ILP). This approach is not scalable as the number of queries or the size of input packet traces increases. Also, it assumes that the input packet traces are representative of the future traffic. This assumption leads to inefficient utilization of limited network resources as traffic patterns change over time. Thus, students can explore the design of a query-planning algorithm that scales better and is adaptive to changes in traffic dynamics.
 * **Efficient query compilation**: Currently, Sonata compiles a DAG of dataflow operators for a query into DAG of match-action tables (MATs) in the switch. The compiler needs to specify the memory required for the stateful operations during the compilation. Reconfiguring the switch is expensive, so currently, it is not possible to dynamically update the memory allocation for stateful operations over time. Thus, students can explore the design of new data structures and compilation algorithms that enable dynamically reallocating switch resources (memory) for different queries over time. 
 * **Query-planning for network-wide settings**: Currently, Sonata is only designed for a single site in the network, such a border router or an Internet exchange point. Students can explore the design of a system that executes network telemetry queries for network-wide settings---partitioning and refining the input queries across multiple switches in the network. 
+
+#### Query-based Graph Visualization
+
+Graphs are fundamentally high dimensional, and generating good graph visualizations is still an unsolved problem.  There are plenty of ways to visualize a graph---as a matrix, as a node-link layout (with many mayn layout algorithms), as histograms, and so on.  Suppose you know what analysis _queries_ (e.g., recursive SQL queries, or a query workload) have been run on the graph.  Can those queries be analyzed to recommend the appropriate visualization?
 
 #### What We Talk About When We Talk About Data
 
