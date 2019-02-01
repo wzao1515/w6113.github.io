@@ -225,7 +225,9 @@ Readings:
 Readings: TBA
 
 <a name='lec18' />
-### TBA 
+### Fast Scans
+
+* [BitWeaving](http://www.cs.wisc.edu/~jignesh/publ/BitWeaving.pdf)
 
 <a name='lec19' />
 ### MockPC  
