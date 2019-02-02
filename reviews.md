@@ -270,6 +270,16 @@ Readings:
 
 
 <a name='lec24' />
+### Approximate Query Processing
+
+
+* Required: [BlinkDB](https://sameeragarwal.github.io/blinkdb_eurosys13.pdf)
+* Optional: [Pfunk-H](https://columbiaviz.github.io/files/papers/pfunk.pdf)
+* Optional: [Sample+Seek](https://columbiaviz.github.io/files/papers/sigmod16sampleseek.pdf)
+* Optional: [WanderJoin](https://columbiaviz.github.io/files/papers/wanderjoin.pdf)
+
+
+<a name='lec24' />
 ### ML in DB
 
 * Required: [MAD Skills: New Analysis Practices for Big Data](http://db.cs.berkeley.edu/papers/vldb09-madskills.pdf)
