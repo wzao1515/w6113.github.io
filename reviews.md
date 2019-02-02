@@ -279,7 +279,7 @@ Readings:
 * Optional: [WanderJoin](https://columbiaviz.github.io/files/papers/wanderjoin.pdf)
 
 
-<a name='lec24' />
+<a name='lec25' />
 ### ML in DB
 
 * Required: [MAD Skills: New Analysis Practices for Big Data](http://db.cs.berkeley.edu/papers/vldb09-madskills.pdf)
