@@ -122,7 +122,10 @@ The following are examples of possible projects -- they are by no means a comple
 
 #### Deep Neural Inspection
 
-[DeepBase](https://medium.com/thewulab/deep-neural-inspection-with-deepbase-de3653257643) is a system to perform deep neural inspection: it extracts hidden unit activations (or other types of behaviors) and computes the statistical relationships with user-specified hypotheses.    However, hypotheses are currently represented as independent vectors/matrices and processed one at a time (essentially).    Since most hypotheses are binary or have a restricted value range, there may be opportunity for bit-level packing and shared processing.  
+[DeepBase](https://medium.com/thewulab/deep-neural-inspection-with-deepbase-de3653257643) is a system to perform deep neural inspection: it extracts hidden unit activations (or other types of behaviors) and computes the statistical relationships with user-specified hypotheses.    
+
+* Idea 1: Use ideas from class to make the system scalable across a cluster of machines.  
+* Idea 2: Hypotheses are currently represented as independent vectors/matrices and processed one at a time (essentially).    Since most hypotheses are binary or have a restricted value range, there may be opportunity for bit-level packing and shared processing.  
 
 
 #### Lineage 
