@@ -141,7 +141,10 @@ The following are examples of possible projects -- they are by no means a comple
 
 [Scalable](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Wu-drucker-QueryingVideos.pdf),
 [Image](http://cidrdb.org/cidr2019/papers/p141-kang-cidr19.pdf),
-[Databases](http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf) are on the horizon.  However, a major limitation is that the query interface is incredibly impoverished.  How do you specify that you want to find red cars that move along a trajectory?  Or to look for relationships between two objects over time?  Certainly not by writing SQL-like text queries.   The challenge is that video is fundamentally 3D, but query interfaces are 1D.  However,  where videos can be directly rendered as a 3D object in VR.  What does a query language look like if designed for VR?  What types of joins, or filtering, make sense?  You should have VR experience.   
+[Databases](http://cidrdb.org/cidr2019/papers/p40-krishnan-cidr19.pdf) are on the horizon.  However, a major limitation is that the query interface is incredibly impoverished.  How do you specify that you want to find red cars that move along a trajectory?  Or to look for relationships between two objects over time?  Certainly not by writing SQL-like text queries.   The challenge is that video is fundamentally 3D, but query interfaces are 1D.  
+
+* Idea 1: the core abstraction in relational algebra is Joins.  In video, it is likely also joins, but for the same image across video frames, or the relationship between objects across video frames.  The nature of trajectories, positioning, and timing are all core aspects to relating concepts in video.  Propose and implement a prototype to help users express video joins.
+* Idea 2: VR can render videos as 3D objects.  What does a query language look like if designed for VR?  What types of joins, or filtering, make sense?  You should have VR experience.   
 
 #### In-Network Query Processing
 
