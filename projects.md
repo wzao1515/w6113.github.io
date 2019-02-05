@@ -106,6 +106,7 @@ Because this report is the primary deliverable upon which you will be graded, **
 
 The following are examples of possible projects -- they are by no means a complete list and **you are free to select your own projects**.  In fact, a common source of ideas is to take your experience from another domain, and combine it with databases/data management.  Projects often come in several flavors:
 
+0. Make DataBass better: extend DataBass in a significant way, and evaluate it against other systems.  For instance, support DSM/PAX, distributed execution, LLVM compilation, lineage, etc.
 1. Research project: model an unsolved problem, propose algorithmic solution, evaluate and report findings.
 2. Win: pick an existing useful application and a well-recognized metric (latency, prediction, etc) and win against the state of the art.
 3. Break and fix: implement a state of the art algorithm on real data, show that it doesn't actually work (results are poor, it's slow, etc), make it work.
