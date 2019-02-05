@@ -354,3 +354,36 @@ For W3, in the removing functionality of the buffer manager part,  instead of us
 
   </p>
 <hr />
+
+
+
+<p class="review">
+  <h3>---</h3>
+
+  <div class="block">The paper is mostly about testing possible modifications on traditional trends of OLAP database design. In particular, the paper tests database structure SHORE by eliminating traditional OLAP properties then run data model TPC-C and check those results. The hypothesis of the paper is that the traditional OLAP design is outdated because of the improvements on computer hardwares. Also, multiple trends in OLAP, includes cluster computation, memory resident database, and multi-threading vs single threading concerns need to be considered in the future design of OLAP system. </div>
+  <div class="block">S1: The paper explains the purpose of designing database to support single threading very clearly. It makes sense for me to understand why single threading is useful in some cases.
+S2: In Section 3, it demonstrates the method of DBMS modification in detail, which makes repeat of experiment easily.</div>
+  <div class="block">W1: The only benchmark used in the experiment is data model TPC-C. Multiple benchmarks will definitely prove the generalization of the conclusion.
+W2: The paper talks about the Cache-conscious B-tree in 5.5 and indicates that it is a possible optimizations of original B-tree implementation. I think it is better to test with it and show some results.</div>
+  <div class="block">D1: The results of the paper show that better optimizations can be achieved by applying multiple optimization methods concurrently. The strength of the paper makes the paper very easy to understand and it clearly gives a direction, the methodology, for future research to apply further optimization on the OLAP system. 
+D2: Personally, the results of the paper is less exciting than the introduction part talks about, log-less, single-thread, translation-less, and other features . I expect to learn a new model of OLAP design that has 20x performance than the current design, but the paper actually shows an empirical comparison between different combinations of optimization methods. However, I like the experiment methods it illustrates, how to control each modification and how to design an experiment on verifying each performance, which is useful for future testing.</div>
+
+  </p>
+<hr />
+
+<p class="review">
+  <h3>---</h3>
+
+  <div class="block">The Online Transaction Processing (OLTP) databases can have their performance enhanced by attempting to take advantage of hardware that is available in 2008 by updating the database architecture code. The results are that with all their optimizations they can achieve 20x better performance with their optimizations on OLTP databases. I personally agree with the authors in their findings as their updates are simple and are rational approaches to improve performance.</div>
+  <div class="block">S1  The authors are great at setting their metrics for performance evaluation
+S2  The arguments on removing the features to improve seems reasonable even without the results. It is a plausible route to take to improve performance and doesnt seem to defy any laws of Computer Science. </div>
+  <div class="block">W1  I am unsure why the authors picked Shore out of all potential open source candidates, there are other open source OLTP databases they could have used to have their findings be applied to real-life faster. The link for it is easy to find with a google search: https://github.com/mysql
+W2  They have made everything single threaded to improve performance. But what if there are circumstances for multi-threading to be used?</div>
+  <div class="block">S1  The authors have made it clear about the hardware they are using. Also, I like how in the ending of the paper, they mentioned submitting the code to a third party and making it available to the reader for their own verification of their results. Finally, I like how they consistently compared the results of the database performance with and without features removed to make their point obvious of data performance improving.
+S2  So one example is that they are removing the locking, which can cause delays, but is no longer needed due to hardware improvements. They also mention how I/O is faster now that the OLTP databases can fit in RAM, among other obvious new hardware changes that can be exploited to improve performance. They also went into detail on Section 3.2 how they removed the features to test the performance of Shore with the features removed.
+W1 - In Section V, the authors mentioned how now many engineers would spend the time updating their database architecture. If they used MySQL, it would have been a great choice due to its popularity and their changes could have easily been incorporated into a large public audience with minimal effort. They could have also explained why they picked Shore out of all other options available to them.
+W2  To improve performance further, they could have discussed whether now it is better to have a thread pool or a process pool to run their enhanced Shore database queries. Since the improvements seem dramatic, maybe it is best to manage query by thread than process?
+</div>
+
+  </p>
+<hr />
