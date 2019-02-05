@@ -14,6 +14,11 @@ Overall:
 
 #### Critiques of some reviews
 
+The system discusses OLTP (transaction processing), not OLAP (analytical processing).
+
+        the paper tests database structure SHORE by eliminating traditional
+        OLAP properties then run data model TPC-C and check those
+
 Agreed.  20x doesn't sound significant, and I'm happy that the reviewer has taken a position!
 But it's over an already lightweight storage system.
 Was the 20x obvious before reading the paper, and where the wins come from?  (many wins required combined remove of components)
@@ -70,6 +75,14 @@ to better understand what's going on.  You can too!
           excluded, so the reader cannot extrapolate if the results
           would be similar if all five transactions were included.
 
+#### Examples of weasel phrases (ambiguous)
+
+
+* Using malloc could have potential issues.
+* single threading is useful in some cases.
+* They have made everything single threaded to improve performance. But what if there are circumstances for multi-threading to be used?
+
+
 
 #### Some examples of fair weaknesses
 
@@ -107,6 +120,16 @@ This hits upon a fundamental critique of H-store.  Shared-nothing on the same ma
         across cores just wastes RAM), so it seems like we shouldn't
         pretend like they are.
 
+
+Good that the comment starts te saying what group commit does, in order to suggest alternatives that could have also worked better.
+They avoid the disk but still incur IC for group commit itself.
+
+        For W1, as far as I know, what group commit would do is firstly
+        records current LSN into thread, and when it enters the flush stage,
+        leader would search the queue and compute the greatest LSN. Since
+        they have already increased the buffer size, even though the group
+        commit could decrease the request, not allowing group commit will
+        not cause disk I/O as well.
 
 ## Your Reviews
 
