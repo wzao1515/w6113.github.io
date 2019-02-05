@@ -4,8 +4,108 @@ layout: page
 
 ## Comments on random reviews
 
-Overall, the reviews are much better!  This paper is on the easier side to review because it's easy to read and the arguments pretty much make sense.
+Overall:
 
+* the reviews are much better!  
+* This paper is on the easier side to review because it's easy to read and the arguments pretty much make sense.
+* Several reviews are based on being unclear about a system, or benchmark, or term used in the paper.  Rather than
+  write the review complaining about them (see below), you have the power to access other resources (papers, tech docs, etc)
+  to answer for yourself!
+
+#### Critiques of some reviews
+
+Agreed.  20x doesn't sound significant, and I'm happy that the reviewer has taken a position!
+But it's over an already lightweight storage system.
+Was the 20x obvious before reading the paper, and where the wins come from?  (many wins required combined remove of components)
+
+        W2: The overall improvements to the database system were
+        significant (20X), but not groundbreaking or necessarily
+        unexpected. It was pretty obvious that the the removal of
+        each layer would produce modest performance improvements.
+        The system was not improved to the point that commercial
+        products would be motivated to revolutionize and strip down
+        their products.
+
+An earlier paper outlined an alternative design (H-store) that addresses comments in W3.
+
+        W3: The authors did not really evaluate the detriments of
+        removing the layers of logging, locking, etc.  For example,
+        there is some discussion regarding the lack of support for
+        parallelism, but no exploration into whether alternatives
+        are viable, e.g. database partitioning, which is mentioned.
+
+
+In an actual review, a comment like this should be framed, and more precise.  
+A 12 page paper can't do everything that you can think of.  
+Is this a suggestion about interesting followup work, or is it highlighting a deficiency in the paper?
+Is it reasonable to expect the authors to hack up multiple storage engines?
+Do you expect "large-scale" commerical systems to have less or more overhead?
+
+        D1: In regards to W1, I felt that more effort could have
+        been made to deviate from the SHORE architecture... They
+        relied on the existing SHORE B-trees instead of creating
+        cache-conscious pages... I was left wondering how specific
+        the performance improvements were to SHORE, and how
+        reproducible the results would be in other database
+        architectures, e.g. large-scale commercial systems.
+
+
+Terms like "it's also hard to say" should be qualified.  This can be said about any experiment.
+If this is important, state what you expect to carry over and what you would not expect -- take a stand.
+In fact, they showed a "lower-bound" using an in-memory b-tree.
+
+         and it's also hard to say whether these improvements are
+         more SHORE-specific or would carry over to other systems
+
+Finally, this review complains about only using two TPC-C transactions.   I looked up the transaction descriptions in the TPC-C specification
+to better understand what's going on.  You can too!
+
+
+          D1: The paper only includes results from two types of
+          transactions (New Order and Payment) when TPC-C involves
+          a mix of five concurrent transactions. The authors mentioned
+          that the five transactions have "different complexity"
+          but failed to clarify relative complexity of New Order
+          and Payment transactions to the transactions that were
+          excluded, so the reader cannot extrapolate if the results
+          would be similar if all five transactions were included.
+
+
+#### Some examples of fair weaknesses
+
+
+I believe this refers to the H-store paper.    This is a good catch.  My understanding is that the multi-node is within a single data center.  WAN with any kind of coordination is hard.  The crique about WAN may not be fair since it is not unique to H-store.
+
+        W1. The authors kind of waive away network latency as an
+        issue -- although they argue that "for many transaction
+        applications, it is possible to partition the workload
+        to be 'single-sited', such that all transactions can be
+        run entirely on a single node", this seems to go directly
+        against their argument that cluster replication can obviate
+        logging. If you need to replicate transactions across
+        nodes for durability/recovery, won't you still need to
+        take into account network latencies? This gets especially
+        bad if you replicate across data centers and/or regions
+        if you want to be resistant to, for example, AWS us-east-1
+        going down.
+
+
+This hits upon a fundamental critique of H-store.  Shared-nothing on the same machine may not make sense, given shared memory.  Hekaton takes a different approach for the single node case.
+
+
+        W2. I found the argument for single-threading unconvincing
+        (especially since it was left out of the performance
+        evaluation). While a single transaction at a time processing
+        lets you ignore synchronization costs (except perhaps to
+        queue requests up), it also doesn't let you use multiple
+        cores in a CPU. The authors argue that one can treat each
+        core as a separate node via virtualization, but it's
+        unclear to me that that would be any faster or simpler
+        than just using shared-memory techniques for multicore
+        programming. Nodes already not cores (because durability
+        requires replication across nodes -- replicating data
+        across cores just wastes RAM), so it seems like we shouldn't
+        pretend like they are.
 
 
 ## Your Reviews
