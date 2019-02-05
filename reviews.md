@@ -270,6 +270,7 @@ Readings:
 ### Self-tuning DBs  
 
 * Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
+* Optional: [Automatically Indexing Millions of Databases in Microsoft Azure SQL Database](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)
 * Optional: [Query-based Workload Forecasting for Self-Driving Database Management Systems](https://www.cs.cmu.edu/~dvanaken/papers/forecasting-sigmod18.pdf)
 * Optional: [Database Cracking](https://stratos.seas.harvard.edu/files/IKM_CIDR07.pdf)
 
