@@ -127,6 +127,9 @@ Readings
 * Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](./files/papers/smoke-vldb18.pdf).  An application of query compilation.
 * Optional: [Spark's Scala expression compiler code](https://github.com/apache/spark/blob/master/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/CodeGenerator.scala)
 
+Some things to think about when reading
+
+* For disk-based systems, when would query compilation be useful?
 
 
 <a name='lec7' />
