@@ -377,6 +377,27 @@ Vectorwise
 
 * Volcano based data flow, but processes vectors of ~L1 cache size
 * Heavily templated, vectorized physical operator implementations
+  * uses input types + auto-variations (e.g., branch/nobranch) to generate
+  * 5000 primitive/physical functions!
+  * note: type management is becoming a deal in modern DBs
 * Compression and other tricks
 * Profiling per-vector is cheaper, can keep good stats
 * Adaptively try different physical implementations on a per-vector(s) basis (uses bandits)
+  * consider less than implementation
+
+          branching_lt(n, res, col, val):
+            k = 0
+            for i in 0..n
+              if (col[i] < val) res[k++] = i
+
+
+          nonbranching_lt(n, res, col, val):
+            k = 0
+            for i in 0..n
+              res[k] = i
+              k += (col[i] < val)
+
+  * nonbranching is always the same cost, and better than branching EXCEPT in very low selectivity case!
+  * use RL.  Reward is regret assuming had used best flavor.  
+  * Each flavor is a random process, but nonstationary, so trickier.
+  * see: Microadaptivity in Vectorwise

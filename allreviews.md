@@ -30,7 +30,7 @@ div.block {
 
 {% for r in reviews %}
   <p class="review">
-  <h3>{{r.Timestamp}} {{r.Name}}</h3>
+  <h3>---</h3>
 
   {{ r.Review | newline_to_br | safe }}
 
