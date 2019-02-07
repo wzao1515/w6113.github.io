@@ -19,7 +19,7 @@ The first reviews ([System R](#lec2), [Postgres](#lec3)) are special, so look at
 Otherwise, follow the following instructions: 
 
 * [Submission form](https://goo.gl/forms/uNfVx9jUBXdj6wXd2)
-* Reviews are due 6PM EST day before lecture.  
+* Reviews are due **10PM EST day before lecture**.  
 * Late submissions are given a score of 0 without prior approval.  
 * You may miss submissions for up to **2 lectures**.
 
