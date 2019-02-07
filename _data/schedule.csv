@@ -4,7 +4,7 @@ color,date,slug,link,presenter,readings,optional,assigned,due
 white,29-Jan,Ingres/Postgres,./lecs/03_postgres,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw1.md"">HW1</a> (weds)",
 white,31-Jan,Column Stores,./lecs/04_colstore,Wu,,,,
 #fdf3fd,5-Feb,OLTP engines,./lecs/05_hstore,Wu,,,,
-#fdf3fd,7-Feb,Query Compilation,,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw2.md"">HW2</a> ",HW1
+#fdf3fd,7-Feb,Query Compilation,./lecs/06_qcomp,Wu,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw2.md"">HW2</a> ",HW1
 white,12-Feb,Multi-dim Indexes,,Wu,,,,
 white,14-Feb,Single machine joins,,-,,,,"<a href=""https://w6113.github.io/projects"">Prospectus</a>"
 #fdf3fd,19-Feb,Distributed joins,,Xinyue Wang,,,,
