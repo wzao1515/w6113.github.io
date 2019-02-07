@@ -42,7 +42,10 @@ See [./reviews](./reviews) for a description and expectations for paper reviews.
 
 
 
-<!--For assignments, you allowed 5 penalty free late days to use throughout the semester. One late day equals one 24 hour period after the due date of the assignment. Once you have used your late days, there will be a 20% penalty for each day an assignment is late. You do not need to explictly declare the use of late days; we will assign them to you in a way that is optimal for your grade when different assignments are worth different numbers of points. Late days may not be used for the final project.-->
+#### Homeworks
+
+
+For Homeworks, you allowed 5 penalty free late days to use throughout the semester. One late day equals one 24 hour period after the due date of the assignment. Once you have used your late days, the assignment will be 0.    There is no need to tell the staff that you are using the late day.
 
 
 
