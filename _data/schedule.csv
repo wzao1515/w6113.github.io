@@ -9,11 +9,11 @@ white,12-Feb,Multi-dim Indexes,,Wu,,,,
 white,14-Feb,Single machine joins,,-,,,,"<a href=""https://w6113.github.io/projects"">Prospectus</a>"
 #fdf3fd,19-Feb,Distributed joins,,Xinyue Wang,,,,
 #fdf3fd,21-Feb,Volcano Exchange,,-,,,,
-white,26-Feb,Eddies,,-,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw3.md"">HW3</a>",HW2
+white,26-Feb,Eddies,,Jenifer Bi,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw3.md"">HW3</a>",HW2
 white,28-Feb,Hybrid Caching/UDFs,,-,,,,
 #fdf3fd,5-Mar,Volcano/Cascades Optimizer,,Haneen,,,,
 #fdf3fd,7-Mar,RL for Join Optimization,,-,,,,
-white,12-Mar,Datalog and Recursion,,Jennifer Bi,,,,
+white,12-Mar,Datalog and Recursion,,-,,,,
 white,14-Mar,Lineage,,Yiliang Shi,,,,HW3<br/>Paper Draft
 #fdf3fd,26-Mar,Exploration / TBA,,Ziao Wang,,,,
 #fdf3fd,28-Mar,Fast Scans,,-,,,,Reviews (3/28)
