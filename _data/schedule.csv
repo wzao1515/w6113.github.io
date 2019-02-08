@@ -9,7 +9,7 @@ white,12-Feb,Multi-dim Indexes,,Wu,,,,
 white,14-Feb,Single machine joins,,-,,,,"<a href=""https://w6113.github.io/projects"">Prospectus</a>"
 #fdf3fd,19-Feb,Distributed joins,,Xinyue Wang,,,,
 #fdf3fd,21-Feb,Volcano Exchange,,-,,,,
-white,26-Feb,Eddies,,Jenifer Bi,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw3.md"">HW3</a>",HW2
+white,26-Feb,Eddies,,Jennifer Bi,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw3.md"">HW3</a>",HW2
 white,28-Feb,Hybrid Caching/UDFs,,-,,,,
 #fdf3fd,5-Mar,Volcano/Cascades Optimizer,,Haneen,,,,
 #fdf3fd,7-Mar,RL for Join Optimization,,-,,,,
