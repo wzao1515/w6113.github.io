@@ -140,6 +140,10 @@ Readings
 * Required: [R-Trees: A Dynamic Index Structure for Spatial Searching](./files/papers/rtree-gut84.pdf)
 * Optional: [Generalized Search Trees for Database Systems](./files/papers/gist-vldb95.pdf)
 
+Some things to think about:
+
+* These papers extend indexes to consider multi-dimensional datasets.  Do they address the needs for modern data types (e.g., videos, images, books) and all the things we want to use this data for??  
+
 
 
 <a name='lec8' />
