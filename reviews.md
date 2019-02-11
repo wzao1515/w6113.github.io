@@ -139,6 +139,7 @@ Readings
 
 * Required: [R-Trees: A Dynamic Index Structure for Spatial Searching](./files/papers/rtree-gut84.pdf)
 * Optional: [Generalized Search Trees for Database Systems](./files/papers/gist-vldb95.pdf)
+* Optional: [Survey: Modern B-Tree Techniques](./files/papers/btreesurvey-graefe.pdf)
 
 Some things to think about:
 
