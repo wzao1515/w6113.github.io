@@ -63,7 +63,7 @@ Good to appreciate the context of a paper and when it is being proposed.
         pretty impressive for the author to present a novel working data
         structure clearly and convincingly in a short paper.
 
-#### The ambiguous
+#### Needs Improvement
 
 
 This is not bad, but ambiguous.  What properties of the VSLI data make you feel like it would not generalize?
