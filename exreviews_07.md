@@ -304,3 +304,73 @@ W4 - What if for example you know all that values will be higher or lower than e
   </p>
 <hr />
 
+
+
+<p class="review">
+  <h3>---</h3>
+
+  <div class="block">This paper proposed a new data structure, R-tree, in order to support spatial database storage (multi-dimensional point data). R-tree shares some common properties with B-tree, and it could split space with hierarchically nested, and possibly overlapping boxes. In the test it shows that R-tree could have a good performance, although there isn't too much mathmatical analysis. I believe the R-tree could have a really bright future because of its good compatibility and the cheap split method.</div>
+  <div class="block">S1
+The linear-cost algorithm is useful and cheap, and it is an important point for supporting R-tree.</div>
+  <div class="block">W1 
+The heavy overlap of each node's minimal bounding rectangle would result in low efficiency (O(N) rather than ideally O(logm(N))) of searching.
+
+W2
+Initialize a R-tree index structure is time-consuming (O(Nlogm(N))).</div>
+  <div class="block">For S1, the algorithm is based on the previously suggested quadratic split method, and only PickSeeds and PickNext are modified. For PickNext, the linear-cost algorithm simply chooses any one of the entries rather than choosing the greatest preference entry. For PickSeeds, it will firstly normalize the separation and then pick the greatest separation (the distance between leftmost right side and rightmost left side and the distance between rightmost right side and leftmost left side).
+
+For W1, it is because for one searching rectangle, all intersected rectangles must be visited, therefore the worst time would be O(N).
+
+For W2, to build a B-tree structure, there could be efficient ways like bulk loading, but for R-tree, according to the paper the only way to build the structure is to repeatedly insert objects, so the time complexity would be O(Nlogm(N)) without counting disk I/O.
+
+Personal idea for this paper: For this paper, I believe it is more like an inspiration because it only gave simple ways to implement each operation. Therefore I could hardly find any weakness in terms of the idea that is suggested, and the weaknesses for the algorithm (operation) are not very reasonable. Besides, for the evaluation, it was just based on some experimental data rather than offering theoretical analysis. Thus more works were done after this paper (like the R*) to improve its performance, and R-tree is more applicable in real life (IBM Informix system)</div>
+
+  </p>
+<hr />
+
+<p class="review">
+  <h3>---</h3>
+
+  <div class="block">Classical one-dimensional database indexing structures are not appropriate to multi-dimensional spatial searching becuase they would need to support a multi-dimensional search space along with range search. To address the deficiencies in existing structures (such as the inability to support multiple dimensions and inefficient random searches), Guttman proposed an alternative structure called an R-tree that represents data objects by intervals in several dimensions. An R-tree is height-balanced with index records in its leaf nodes containing pointers to data objects. Index records in the R-tree are either in the form of (I, tuple-identifier), where I is an n-dimensional rectangle representing the bounding box of the spatial object; or (I, child-pointer), where I covers all rectangles in the lower node's entries.</div>
+  <div class="block">S1 - I appreciated the illustration of the R-tree structure in figures 2.1a and 2.1b. It makes it much easier to visualize how it works and how objects may overlap.
+S2 - The provision of extensive pseudocode to illustrate how each of the R-tree methods works is helpful, especially since the author suggests that other search algorithms could be implemented (presumably by the user) in the future
+S3 - The R-tree is height-balanced, which means the proposed algorithms (e.g. delete) wouldn't have to propagate up by too many levels</div>
+  <div class="block">W1 - Overlapping structure contributes to non-optimal search algorithm.
+W2 - The proposed algorithms require making a lot of adjustments (on every level) to the tree.
+W3 - Author provided performance analysis between algorithms but not against other multi-dimensional structures (or even different types of multi-dimensional data). It seems obvious that a linear algorithm would beat an exhaustive or quadratic algorithm, so much of the extensive performance analysis seems to not have a point.</div>
+  <div class="block">D1 - (expanding W2) In Section 2, the author said that "no periodic reorganization is required." However, looking through the algorithms in Section 3, Insert invokes AdjustTree and Delete invokes CondenseTree, both of which adjusts the index and involves relocating entries in the tree. Furthermore, performing node updates means its index record must be deleted, updated and re-inserted. His earlier statement seems like a direct contradiction to his description of the design. As for the design of the data structure itself, each insert and delete potentially affects multiple nodes, so one can imagine the overhead to build up quickly when using the data structure. </div>
+
+  </p>
+<hr />
+
+<p class="review">
+  <h3>---</h3>
+
+  <div class="block">The paper presents R-trees which handle spatial data efficiently. R-tree is an index structure which uses (I, tuple-identifier) as index record entries. I am the minimal rectangle bounding box. It has delete, update, insert strategies as B tree and is optimized for the spatial data. For the node splitting part, the paper put forward 3 algorithms: exhaustive algorithm, quadratic-cost algorithm, and linear-cost algorithm. The author also conducts several experiments on inserting, updating, deleting. To conclude, the linear node-split algorithm proved to be good.
+</div>
+  <div class="block">S1:
+This data structure is suited to spatial data.
+S2:
+The data structure similar to the B tree needs fewer disk accesses.
+S3:
+When the record number becomes larger, the performance is not worse. 
+S4:
+The linear algorithm proved to be good and save cost on inserting and deleting.
+</div>
+  <div class="block">W1:
+The data structure only supports the rectangle store. When it comes to irregular shape. it could result in the imprecise query.
+</div>
+  <div class="block">
+D1: The R-tree is a multi-way tree. Even if the index is disk-resident, the structure is designed so that a spatial search requires visiting only a small number of nodes.
+
+D2: From figure 4.7, with the number of records larger, the CPU per insert and delete is not going to be larger. Thus, the structure is good to deal with a huge amount of data.
+
+D3: The data structure is split by rectangle. But in this scenario, when all the shapes are non-overlapped and the minimal bounding rectangle is the same,  the tree would be nonsense.
+
+Question: These papers extend indexes to consider multi-dimensional datasets. Do they address the needs for modern data types (e.g., videos, images, books) and all the things we want to use this data for??
+
+Answer to the question: Video has too many dimensions. I think we need the metadata to search the videos. For images, all the images can be modeled as (length, width, channel). The pixel channel is all ranged from 0 to 255. So, it can not address the need for images too.
+</div>
+
+  </p>
+<hr />
