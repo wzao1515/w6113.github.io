@@ -63,6 +63,14 @@ Good to appreciate the context of a paper and when it is being proposed.
         pretty impressive for the author to present a novel working data
         structure clearly and convincingly in a short paper.
 
+
+Call out nonsense cases!  In what applications would this problem arise?  This exact observation motivated a cottage industry of papers.
+
+        D3: The data structure is split by rectangle. But in this
+        scenario, when all the shapes are non-overlapped and the
+        minimal bounding rectangle is the same, the tree would be
+        nonsense.
+
 #### Needs Improvement
 
 
