@@ -12,6 +12,7 @@ We will be transitioning from _how_ reviews are structured to the comments noted
   * In the R-tree case, it is the ability to speed up lookups in a shape database
 * How _should_ the paper be evaluated?  How far is that from what was actually evaluated?
 * Specifically for the Guttman paper, are there insert workloads where the index could regress into becoming useless?
+* Good exercise to reformulate concerns that arise as research questions, and see extent it is answered.  
 
 
 #### The good
