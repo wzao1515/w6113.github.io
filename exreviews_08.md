@@ -14,7 +14,7 @@ Imagining extremes of a parameter/spectrum is a good way of assessing decisions.
 
 A non-obvious observation.
 
-* One thing that stands out particularly in this papers organization is to first present the algorithms with strict assumptions followed by adaptations to the algorithms with relaxation on these assumptions.jjjjjjjjkkkkkk
+* One thing that stands out particularly in this papers organization is to first present the algorithms with strict assumptions followed by adaptations to the algorithms with relaxation on these assumptions.j
 
 Clear summary, and an opinion.
 
