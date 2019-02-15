@@ -162,8 +162,9 @@ Readings
 
 Readings
 
-* Required: [Parallel Database systems: the future of high performance database systems](./files/papers/paralleldbsystems-dewitt)
+* Required: [The Gamma database machine project](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=50905)
 * Optional: [TrackJoin](./files/papers/trackjoin-sigmod14.pdf)
+* Optional: [Parallel Database systems: the future of high performance database systems](./files/papers/paralleldbsystems-dewitt)
 
 
 <a name='lec10' />
