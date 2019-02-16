@@ -162,7 +162,7 @@ Readings
 
 Readings
 
-* Required: [The Gamma database machine project](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=50905)
+* Required: [The Gamma database machine project](https://wiki.epfl.ch/edicpublic/documents/Candidacy%20exam/gamma.pdf)
 * Optional: [TrackJoin](./files/papers/trackjoin-sigmod14.pdf)
 * Optional: [Parallel Database systems: the future of high performance database systems](./files/papers/paralleldbsystems-dewitt)
 
