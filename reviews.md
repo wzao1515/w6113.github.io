@@ -184,7 +184,11 @@ Readings
 * Optional: [TelegraphCQ: Continuous Dataflow Processing for an Uncertain World](http://db.csail.mit.edu/madden/html/TCQcidr03.pdf)
 * Optional: [Survey: Adaptive Query Processing](https://www.nowpublishers.com/article/Details/DBS-001)
 
+Address the following in your review's details:
 
+* This question asks you to separate the ideas in eddies from its implementation.  Imagine eddies became the canonical engine design, and its _core ideas_ continued to be improved.
+  * Come up with the most interesting query/workload for which such an engine would really shine.  What are its properties?
+  * Come up with the most interesting query/workload that would cripple such an engine.  What are its properties?  
 
 <a name='lec12' />
 ### Hybrid Caching/UDFs    
