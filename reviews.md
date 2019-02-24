@@ -198,6 +198,38 @@ Readings
 * Required: [Hybrid Caching](./files/papers/caching-sigmod1996.pdf)
 * Optional: [Exploiting Correlations for Expensive Predicate Evaluation](https://arxiv.org/pdf/1411.3374.pdf)
 
+Below are a few aspects of the readings to think about.  I have randomly assigned teams to think about each aspect.
+After I release paper reviews, discuss among your team what your consensus response will be.
+Teams will elect a leader to present their consensus in class.
+
+1. Problem 
+  * What problem is this idea/system solving?  Is that important?  Why?  Provide evidence.
+  * Team:  Jennifer, Yiru,
+2. State-of-the-art
+  * What was the previous state-of-the-art (in the same field or other fields)? How, and how much does this system advance state of art?   Justify with evidence.
+  * Team: Dean, Alan
+3. How?
+  * How does the idea/system work? What are the key insights? Provide concrete examples that highlight extreme design points.
+  * Team: Yiliang, Amita
+4. Results
+  * How SHOULD the technique be evaluated?  How was the technique evaluated?   What were key results?
+  * Team: Maryam, Xiao
+5. The Future 
+  * What would follow-on research to this paper be?  Propose an actual design of the research.  Some examples:
+    * Improve an algorithm in the paper; or
+    * Find a new, significant evaluation question for it; or
+    * A brand-new way to address the same problem/goal. 
+  * Team: Haneen, Andrew
+6: Applier
+  * Think beyond this paper.  What is the most different interesting application/use case that this paper (or its ideas) enables?  Justify.
+  * Team: Shikun, Xinyue
+7: Hater
+  * Identify the deepest weaknesses in the paper.  Identify flaws in both categories below, and describe how to address the weaknesses:
+    * The technical work: are there limitations or flawed assumptions?  Look for aspects that break the paper.  
+    * The presentation of the paper: look for poorly explained portions, logical inconsistencies, argumentation that is flawed.
+  * Team: Ziao, Siyang
+
+Structure borrowed from Ethan Katz Bassett’s course on Internet Service Delivery. 
 
 <a name='lec13' />
 ### Top-down Optimization    
