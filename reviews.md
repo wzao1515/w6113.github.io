@@ -238,6 +238,18 @@ Readings
 * Required: [Volcano Optimizer](./files/papers/volcanooptimizer-icde93.pdf)
 * Optional: [Cascades](./files/papers/cascades-graefe.pdf)
 
+[SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
+
+Roles
+
+* Problem:  Dean, Amita
+* State-of-the-art:  Shikun, Yiru
+* How:  Haneen, Jennifer
+* Results:  Maryam, Yiliang
+* Future:  Xiao, Andrew
+* Applier:  Alan, Siyang
+* Hater:  Xinyue, Ziao
+
 
 <a name='lec14' />
 ### RL for Join Optimization   
@@ -248,6 +260,18 @@ Readings
 * Optional: [SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning](https://arxiv.org/pdf/1901.05152.pdf)
 * Optional: [Selectivity Estimation using Probabilistic Models](https://ai.stanford.edu/~koller/Papers/Getoor+al:SIGMOD01.pdf)
 
+[SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
+
+Roles:
+
+* Problem:  Maryam, Dean
+* State-of-the-art:  Jennifer, Andrew
+* How:  Yiliang, Shikun
+* Results:  Alan, Xinyue
+* Future:  Haneen, Ziao
+* Applier:  Amita, Xiao
+* Hater:  Yiru, Siyang
+
 
 <a name='lec15' />
 ### Datalog and Recursion   
@@ -257,6 +281,17 @@ Readings
 * Required: [Datalog and Recursive Query Processing](https://www.nowpublishers.com/article/Details/DBS-017) Chapters 2, 3
 * Optional: [Evita Raced: Metacompilation for Declarative Networks](http://www.vldb.org/pvldb/1/1453978.pdf): query optimization AS datalog
 
+[SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
+
+Roles
+
+* Problem:  Ziao, Maryam
+* State-of-the-art:  Siyang, Xinyue
+* How:  Yiru, Jennifer
+* Results:  Yiliang, Alan
+* Future:  Xiao, Shikun
+* Applier:  Dean, Haneen
+* Hater:  Amita, Andrew
 
 
 <a name='lec16' />
