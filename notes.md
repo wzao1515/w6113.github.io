@@ -14,6 +14,7 @@ Topics
 
 Other courses/resources
 
+* https://sfu-db.github.io/dbsystems/
 * http://www.eecs.harvard.edu/~margo/cs261/notes/intro.html
 * https://sites.google.com/site/cs286fall2014/home
 * https://people.eecs.berkeley.edu/~brewer/cs262/
@@ -24,4 +25,4 @@ Other courses/resources
 * redbook.io
 * https://carlstrom.com/stanford/quals/mirror/swig.stanford.edu/pub/summaries/database/index.html
 * http://people.cs.uchicago.edu/~aelmore/class/topics17/
-https://courses.cs.washington.edu/courses/cse550/17au/
+* https://courses.cs.washington.edu/courses/cse550/17au/
