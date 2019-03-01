@@ -282,6 +282,27 @@ Roles: Compare and contrast between the systems for your respective roles
 
 
 <a name='lec15' />
+### Naiad
+
+Readings
+
+* Required: [Naiad: A Timely Dataflow System](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/naiad_sosp2013.pdf)
+* Optional: [Earlier CIDR paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/01/differentialdataflow.pdf)
+* Optional: [Timely Dataflow](https://github.com/TimelyDataflow/timely-dataflow)
+
+[SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
+
+Roles: 
+
+* Problem:  Amita, Andrew
+* State-of-the-art:  Xinyue, Ziao
+* How:  Haneen, Jennifer
+* Results:  Siyang, Yiru
+* Future:  Yiliang, Maryam
+* Applier:  Dean, Shikun
+* Hater:  Alan, Xiao
+
+<a name='lec16' />
 ### Datalog and Recursion   
 
 Readings
@@ -302,7 +323,8 @@ Roles
 * Hater:  Amita, Andrew
 
 
-<a name='lec16' />
+<a name='lec17' />
+<a name='lec18' />
 ### Lineage   
 
 Readings:
@@ -310,25 +332,14 @@ Readings:
 * Required: [Provenance Semirings](http://users.ics.forth.gr/~gregkar/publications/pods2007.pdf)
 * Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](http://www.vldb.org/pvldb/vol11/p719-psallidas.pdf)
 
-<a name='lec17' />
+
+<a name='lec19' />
 ### Exploration / TBA 
 
 Readings: TBA
 
-<a name='lec18' />
-### Fast Scans
-
-* [BitWeaving](http://www.cs.wisc.edu/~jignesh/publ/BitWeaving.pdf)
-
-<a name='lec19' />
-### MockPC  
-
-Readings:
-
-* Your assigned papers
-
-
 <a name='lec20' />
+<a name='lec21' />
 ### MockPC  
 
 Readings:
@@ -336,22 +347,21 @@ Readings:
 * Your assigned papers
 
 
-
-<a name='lec21' />
+<a name='lec22' />
 ### Materialized Views    
 
 * Required: [Survey: Materialized Views](./files/papers/matview-survey.pdf)
 * Optional: [Noria: dynamic, partially-stateful data-flow for high-performance web applications](https://pdos.csail.mit.edu/papers/noria:osdi18.pdf)
 
 
-<a name='lec22' />
+<a name='lec23' />
 ### Data Cubes    
 
 * Required: [Data Cube](./files/papers/datacube-jimgray.pdf)
 * Optional: [Implementing Data Cubes Efficiently](http://ilpubs.stanford.edu:8090/102/1/1995-34.pdf)
 * Optional: [Explaining differences in multidimensional aggregates](./files/papers/olapdiff-sunita.pdf)
 
-<a name='lec23' /> 
+<a name='lec24' /> 
 ### Self-tuning DBs  
 
 * Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
@@ -360,7 +370,7 @@ Readings:
 * Optional: [Database Cracking](https://stratos.seas.harvard.edu/files/IKM_CIDR07.pdf)
 
 
-<a name='lec24' />
+<a name='lec25' />
 ### Approximate Query Processing
 
 
@@ -370,9 +380,19 @@ Readings:
 * Optional: [WanderJoin](https://columbiaviz.github.io/files/papers/wanderjoin.pdf)
 
 
-<a name='lec25' />
+<a name='lec26' />
 ### ML in DB
 
 * Required: [MAD Skills: New Analysis Practices for Big Data](http://db.cs.berkeley.edu/papers/vldb09-madskills.pdf)
 * Optional: [Towards a Unified Architecture for in-RDBMS Analytics](https://cs.stanford.edu/people/chrismre/papers/bismarck.pdf)
 * Optional: [Learning Generalized Linear Models Over Normalized Data](http://pages.cs.wisc.edu/~jignesh/publ/GLMs-over-joins.pdf)
+
+
+<!--
+<a name='lec18' />
+### Fast Scans
+
+* [BitWeaving](http://www.cs.wisc.edu/~jignesh/publ/BitWeaving.pdf)
+-->
+
+
