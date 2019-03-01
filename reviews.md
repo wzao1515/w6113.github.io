@@ -252,17 +252,25 @@ Roles
 
 
 <a name='lec14' />
-### RL for Join Optimization   
+### Large-scale Data Flow
 
 Readings
 
+* Required: [MapReduce](https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf)
+* Required: [RDDs](https://sfu-db.github.io/dbsystems/Papers/nsdi12-final138.pdf)
+* Optional: [SparkSQL](https://sfu-db.github.io/dbsystems/Papers/SparkSQLSigmod2015.pdf)
+* Optional: [Spark (mainly exaples)](http://static.usenix.org/events/hotcloud10/tech/full_papers/Zaharia.pdf)
+
+
+<!--
 * Required: [Learning to Optimize Join Queries With Deep Reinforcement Learning](https://arxiv.org/pdf/1808.03196.pdf)
 * Optional: [SkinnerDB: Regret-Bounded Query Evaluation via Reinforcement Learning](https://arxiv.org/pdf/1901.05152.pdf)
 * Optional: [Selectivity Estimation using Probabilistic Models](https://ai.stanford.edu/~koller/Papers/Getoor+al:SIGMOD01.pdf)
+-->
 
 [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
 
-Roles:
+Roles: Compare and contrast between the systems for your respective roles
 
 * Problem:  Maryam, Dean
 * State-of-the-art:  Jennifer, Andrew
