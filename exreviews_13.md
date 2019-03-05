@@ -2,6 +2,72 @@
 layout: page
 ---
 
+## Comments
+
+It is better to go deeper into one particular aspect of your role than to make broad statements.  Keep asking and answering "why?" and "how?" and "what's the simplest example?"
+
+### The Problem
+
+        The Volcano optimizer generator addresses the problem of creating
+        an optimizer based on a data model. Because evaluating every subquery
+        with every possible physical operator could be arbitrarily expensive,
+        the optimizer generator uses backward chaining to avoid evaluating
+        as many expressions as possible.
+
+This description touches upon many aspects of the problem, and can be improved by saying _less_.   The purpose of this role is to clarify what the problem really is and why it matters.  Volcano does many things: it generates an optimizer, it couples it with a search algorithm, etc etc.  First clearly distinguish these subproblems, and then comment on the important ones and WHY they are important.  
+
+For instance, the optimizer generator is important because folks are creating new logical and physical operators all the time, yet that would require that optimizers be interpreted and potentially slow.  Also, components are not decoupled, which makes software engineering hard.  Finally, optimization is fundamentally search, and should be treated as such.
+
+
+
+### Experiments
+
+		The paper did well in identifying the relevant
+		criterion to evaluate a query optimization system,
+		namely optimization time, execution time, and to a
+		lesser degree extensiblity. 
+
+This identifies the main criteria.  Good job!  However, start with what the system is intended to do in order to clarify that these criteria are "complete" (evaluates all of the things that matter for the system).  For instance:
+
+*  Volcano generates optimizers, in that its input are rules, operators, and costs, and it outputs an optimizer using a particular search heuristic.  The optimizer takes a logical query plan and outputs a faster physical query plan.  Thus we care about the generator AND the output optimizer:
+  * extensibility (how easy it is to add new rules/operators/costs),
+  * how long it takes to generate a new optimizer (generation time)
+  * how long it takes to run the optimizer (optimization time)
+  * how good the optimizer's output query plans are (query exec time)
+
+In fact, another review points out a good way to assess extensibility:
+
+        Extensibility is a more subjective factor that is hard to
+        quantify, but Volcano does have several increased flexibilities
+        that are not present in EXODUS
+
+
+Also start by stating what we should expect to be the main factors that impact each criteria, based on first principles.     Based on this, THEN the paper experiments/evaluation can be assessed by comparing with the above.
+
+		The results showed that Exodus optimization is much
+		slower than volcano's, while execution time is
+		approximately the same for up to 4 joins, with
+		volcano doing better after. This makes sense due
+		to Volcano's better search algorithm which limits
+		the search space and requires less memory.
+
+Be more nuanced and precise here.  This implies that Volcano's search algorithm is STRICTLY better on every dimension.  Is this really the case?
+
+
+### Future
+
+
+      One of the most time-consuming operations in Volcano is
+      exhaustively generating all possible "moves" ...With advances
+      in technology, such as using multiple cores to enable parallel
+      processing, I wonder if it's possible to create a system that
+      speeds up move generation so the most (relatively) optimal
+      one can be chosen as soon as possible.
+
+This is a promising observation.  I like that the procedure is sketched out.  Assess how far this direction COULD go if pursued (i.e., its "ceiling").  Given that the comment is about making search faster, what are other promising approaches to search optimization that could be used?  For parallelization, it provides a linear increase in search power, so how does that compare with the size of the search space?
+
+
+## Reviews
 
 <style>
 p.review {
