@@ -335,7 +335,7 @@ Readings:
 
 
 <a name='lec19' />
-### Exploration / TBA 
+### TBA
 
 Readings: TBA
 
@@ -363,6 +363,16 @@ Readings:
 * Optional: [Explaining differences in multidimensional aggregates](./files/papers/olapdiff-sunita.pdf)
 
 <a name='lec24' /> 
+### Visualization/Exploration
+
+* Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
+* Optional: [Automatically Indexing Millions of Databases in Microsoft Azure SQL Database](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)
+* Optional: [Query-based Workload Forecasting for Self-Driving Database Management Systems](https://www.cs.cmu.edu/~dvanaken/papers/forecasting-sigmod18.pdf)
+* Optional: [Database Cracking](https://stratos.seas.harvard.edu/files/IKM_CIDR07.pdf)
+
+
+
+<a name='lec25' /> 
 ### Self-tuning DBs  
 
 * Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
@@ -371,6 +381,7 @@ Readings:
 * Optional: [Database Cracking](https://stratos.seas.harvard.edu/files/IKM_CIDR07.pdf)
 
 
+<!--
 <a name='lec25' />
 ### Approximate Query Processing
 
@@ -379,6 +390,7 @@ Readings:
 * Optional: [Pfunk-H](https://columbiaviz.github.io/files/papers/pfunk.pdf)
 * Optional: [Sample+Seek](https://columbiaviz.github.io/files/papers/sigmod16sampleseek.pdf)
 * Optional: [WanderJoin](https://columbiaviz.github.io/files/papers/wanderjoin.pdf)
+-->
 
 
 <a name='lec26' />

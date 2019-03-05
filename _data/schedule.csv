@@ -12,18 +12,18 @@ white,14-Feb,Single machine joins,,-,,,,"<a href=""https://w6113.github.io/proje
 white,26-Feb,Eddies,,Jennifer Bi,,,"<a href=""https://github.com/w6113/databass-public/blob/master/docs/hw3.md"">HW3</a>",HW2
 white,28-Feb,Hybrid Caching/UDFs,,-,,,,
 #fdf3fd,5-Mar,Volcano/Cascades Optimizer,,Haneen,,,,
-#fdf3fd,7-Mar,Large-scale Dataflow Basics,,-,,,,
-white,12-Mar,Naiad,,-,,,,
-white,14-Mar,Datalog and Recursion,,-,,,,HW3
+#fdf3fd,7-Mar,Large-scale Dataflow Basics,,Wu,,,,
+white,12-Mar,Naiad,,Wu,,,,
+white,14-Mar,Datalog and Recursion,,Wu,,,,HW3
 white,18-Mar,-,,,,,,Paper Draft Due
 #fdf3fd,26-Mar,Lineage,,Yiliang Shi,,,,
-#fdf3fd,28-Mar,Exploration,,Ziao Wang,,,,PC Reviews
+#fdf3fd,28-Mar,TBA,,Wu,,,,PC Reviews
 white,2-Apr,Mock PC,,-,,,,Mock PC
 white,4-Apr,Mock PC,,-,,,,Mock PC
 #fdf3fd,9-Apr,Materialized Views,,Mari Husain,,,,
 #fdf3fd,11-Apr,Datacubes,,Yiru Chen,,,,
-white,16-Apr,Self-tuning DBs,,Dean Deng,,,,
-white,18-Apr,Approximate Query Processing (tentative),,-,,,,
+white,16-Apr,Visualization/Exploration,,Ziao Wang,,,,
+white,18-Apr,Self-tuning DBs,,Dean Deng,,,,
 #fdf3fd,23-Apr,ML in DBs (tentative),,,,,,
 #fdf3fd,25-Apr,Fast Scans/TBA,,,,,,
 white,30-Apr,Presentation (?),,,,,,Presentation (?)
