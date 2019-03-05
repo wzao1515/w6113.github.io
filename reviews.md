@@ -259,7 +259,8 @@ Readings
 * Required: [MapReduce](https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf)
 * Required: [RDDs](https://sfu-db.github.io/dbsystems/Papers/nsdi12-final138.pdf)
 * Optional: [SparkSQL](https://sfu-db.github.io/dbsystems/Papers/SparkSQLSigmod2015.pdf)
-* Optional: [Spark (mainly exaples)](http://static.usenix.org/events/hotcloud10/tech/full_papers/Zaharia.pdf)
+* Optional: [Spark (mainly examples)](http://static.usenix.org/events/hotcloud10/tech/full_papers/Zaharia.pdf)
+* Optional: [State of the Art in Large scale Data Flow](./files/papers/kossmann-sotadistdbs.pdf)
 
 
 <!--
