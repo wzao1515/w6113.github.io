@@ -274,7 +274,7 @@ Readings
 Roles: Compare and contrast between the systems for your respective roles
 
 * Problem:  Maryam, Dean
-* State-of-the-art:  Jennifer, Andrew
+* State-of-the-art:  Jennifer
 * How:  Yiliang, Shikun
 * Results:  Alan, Xinyue
 * Future:  Haneen, Ziao
@@ -295,14 +295,13 @@ Readings
 
 Roles: 
 
-* Problem:  Amita, Andrew
-* State-of-the-art:  Xinyue, Ziao
-* How:  Haneen, Jennifer
-* Results:  Siyang, Yiru
-* Future:  Yiliang, Maryam
-  * To distinguish from hater: what NEW research do these ideas enable?
-* Applier:  Dean, Shikun
-* Hater:  Alan, Xiao
+* Problem:  Yiliang, Ziao
+* State-of-the-art:  Maryam, Xinyue
+* How:  Siyang, Amita
+* Results:  Yiru, Xiao
+* Future:  Alan, Jennifer
+* Applier:  Shikun, Dean
+* Hater:  Haneen
 
 
 
@@ -320,13 +319,14 @@ Readings
 
 Roles: 
 
-* Problem:  Yiru, Yiliang
-* State-of-the-art:  Andrew, Shikun
-* How:  Jennifer, Haneen
-* Results:  Amita, Dean
-* Future:  Alan, Ziao
-* Applier:  Xinyue, Siyang
-* Hater:  Maryam, Xiao
+* Problem:  Yiru, Shikun
+* State-of-the-art:  Yiliang, Dean
+* How:  Xinyue, Alan
+* Results:  Jennifer, Ziao
+* Future:  Amita, Siyang
+* Applier:  Haneen, Maryam
+* Hater:  Xiao
+
 
 <a name='lec17' />
 <a name='lec18' />
@@ -341,13 +341,14 @@ Readings
 
 Roles
 
-* Problem:  Ziao, Maryam
-* State-of-the-art:  Siyang, Xinyue
-* How:  Yiru, Jennifer
-* Results:  Yiliang, Alan
-* Future:  Xiao, Shikun
-* Applier:  Dean, Haneen
-* Hater:  Amita, Andrew
+* Problem:  Haneen, Xiao
+* State-of-the-art:  Siyang, Alan
+* How:  Dean, Maryam
+* Results:  Amita, Shikun
+* Future:  Yiliang, Yiru
+* Applier:  Jennifer, Xinyue
+* Hater:  Dean, Alan
+
 
 
 <a name='lec19' />
@@ -362,14 +363,13 @@ Readings:
 
 Roles
 
-* Problem:  Xiao, Maryam
-* State-of-the-art:  Andrew, Xinyue
-* How:  Shikun, Jennifer
-* Results:  Alan, Dean
-* Future:  Siyang, Yiru
-* Applier:  Haneen, Amita
-* Hater:  Ziao, Yiliang
-
+* Problem:  Alan, Siyang
+* State-of-the-art:  Xiao, Ziao
+* How:  Yiru
+* Results:  Haneen, Dean
+* Future:  Shikun, Maryam
+* Applier:  Yiliang
+* Hater:  Amita, Jennifer
 
 
 <a name='lec20' />
@@ -386,6 +386,18 @@ Readings:
 
 * Required: [Survey: Materialized Views](./files/papers/matview-survey.pdf)
 * Optional: [Noria: dynamic, partially-stateful data-flow for high-performance web applications](https://pdos.csail.mit.edu/papers/noria:osdi18.pdf)
+
+[SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
+
+Roles 
+
+* Problem:  Xinyue, Jennifer
+* State-of-the-art:  Haneen, Amita
+* How:  Xiao, Ziao
+* Results:  Siyang
+* Future:  Dean
+* Applier:  Yiru
+* Hater:  Yiliang, Maryam
 
 
 <a name='lec23' />
