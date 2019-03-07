@@ -20,7 +20,7 @@ It's really good to identify the key comparison points from the state of the art
 Recall that the point of this role is not to summarize every technical part of the paper.  It is to **prioritize** and identify the most important technical ideas used to achieve the paper's contributions?  Some are a matter of applying prior solutions, and some are trick and crucial to the system.  Identify and describe the crucial ones.
 
 
-For example, the following review summarizes each part of the paper as sentences.  Although it does do a good job of listing a number of facts from the paper, it is better to pick specific points and go into more depth about **why** they are important technical details (e.g., whot could go wrong if they get the detail incorrect).
+For example, the following review summarizes each part of the paper as sentences.  Although it does do a good job of listing a number of facts from the paper, it is better to pick specific points and go into more depth about **why** they are important technical details (e.g., whot could go wrong if they get the detail incorrect).  For instance, my opinion is that RDD's main technical contribution was building around an in-memory data flow system---this means that failures could easily lose data, thus the big technical question is how to efficiently deal with failures and recovery.  At this point, I would describe the main techniques and why they do a good job addressing the problem.
 
         The dependencies between RDDs can be wide or narrow. The
         narrow dependency is pipelined in each stage container,
