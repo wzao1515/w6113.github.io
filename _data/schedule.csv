@@ -13,11 +13,11 @@ white,26-Feb,Eddies,,Jennifer Bi,,,"<a href=""https://github.com/w6113/databass-
 white,28-Feb,Hybrid Caching/UDFs,,-,,,,
 #fdf3fd,5-Mar,Volcano/Cascades Optimizer,,Haneen,,,,
 #fdf3fd,7-Mar,Large-scale Dataflow Basics,,Wu,,,,
-white,12-Mar,Naiad,,Wu,,,,
-white,14-Mar,Datalog and Recursion,,Wu,,,,HW3
+#fdf3fd,12-Mar,Large-scale Dataflow Basics2,,Wu,,,,
+white,14-Mar,Naiad,,Wu,,,,
 white,18-Mar,-,,,,,,Paper Draft Due
-#fdf3fd,26-Mar,Lineage,,Yiliang Shi,,,,
-#fdf3fd,28-Mar,TBA,,Wu,,,,PC Reviews
+white,26-Mar,Datalog and Recursion,,Wu,,,,HW3
+#fdf3fd,28-Mar,Lineage,,Yiliang Shi,,,,PC Reviews
 white,2-Apr,Mock PC,,-,,,,Mock PC
 white,4-Apr,Mock PC,,-,,,,Mock PC
 #fdf3fd,9-Apr,Materialized Views,,Mari Husain,,,,

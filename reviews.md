@@ -282,14 +282,14 @@ Roles: Compare and contrast between the systems for your respective roles
 * Hater:  Yiru, Siyang
 
 
-<a name='lec15' />
-### Naiad
+<a name='lec14' />
+### Large-scale Data Flow 2
 
 Readings
 
-* Required: [Naiad: A Timely Dataflow System](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/naiad_sosp2013.pdf)
-* Optional: [Earlier CIDR paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/01/differentialdataflow.pdf)
-* Optional: [Timely Dataflow](https://github.com/TimelyDataflow/timely-dataflow)
+* Required: [RDDs](https://sfu-db.github.io/dbsystems/Papers/nsdi12-final138.pdf)
+* Required: [SparkSQL](https://sfu-db.github.io/dbsystems/Papers/SparkSQLSigmod2015.pdf)
+* Optional: [DyadLinq](http://michaelisard.com/pubs/sigmod09.pdf)
 
 [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
 
@@ -300,10 +300,36 @@ Roles:
 * How:  Haneen, Jennifer
 * Results:  Siyang, Yiru
 * Future:  Yiliang, Maryam
+  * To distinguish from hater: what NEW research do these ideas enable?
 * Applier:  Dean, Shikun
 * Hater:  Alan, Xiao
 
+
+
 <a name='lec16' />
+### Minibatch/incremental Dataflow
+
+Readings
+
+* Required: [Naiad: A Timely Dataflow System](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/naiad_sosp2013.pdf)
+* Optional: [Discretized Streams](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf)
+* Optional: [Earlier CIDR paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/01/differentialdataflow.pdf)
+* Optional: [Timely Dataflow](https://github.com/TimelyDataflow/timely-dataflow)
+
+[SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
+
+Roles: 
+
+* Problem:  Yiru, Yiliang
+* State-of-the-art:  Andrew, Shikun
+* How:  Jennifer, Haneen
+* Results:  Amita, Dean
+* Future:  Alan, Ziao
+* Applier:  Xinyue, Siyang
+* Hater:  Maryam, Xiao
+
+<a name='lec17' />
+<a name='lec18' />
 ### Datalog and Recursion   
 
 Readings
@@ -324,8 +350,7 @@ Roles
 * Hater:  Amita, Andrew
 
 
-<a name='lec17' />
-<a name='lec18' />
+<a name='lec19' />
 ### Lineage   
 
 Readings:
@@ -333,11 +358,19 @@ Readings:
 * Required: [Provenance Semirings](http://users.ics.forth.gr/~gregkar/publications/pods2007.pdf)
 * Optional: [SMOKE: Fine-grained Lineage at Interactive Speed](http://www.vldb.org/pvldb/vol11/p719-psallidas.pdf)
 
+[SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
 
-<a name='lec19' />
-### TBA
+Roles
 
-Readings: TBA
+* Problem:  Xiao, Maryam
+* State-of-the-art:  Andrew, Xinyue
+* How:  Shikun, Jennifer
+* Results:  Alan, Dean
+* Future:  Siyang, Yiru
+* Applier:  Haneen, Amita
+* Hater:  Ziao, Yiliang
+
+
 
 <a name='lec20' />
 <a name='lec21' />
