@@ -15,6 +15,24 @@ It's really good to identify the key comparison points from the state of the art
 		disks for local disk storage, River for distributed
 		communication/scheduling.
 
+#### How
+
+Recall that the point of this role is not to summarize every technical part of the paper.  It is to **prioritize** and identify the most important technical ideas used to achieve the paper's contributions?  Some are a matter of applying prior solutions, and some are trick and crucial to the system.  Identify and describe the crucial ones.
+
+
+For example, the following review summarizes each part of the paper as sentences.  Although it does do a good job of listing a number of facts from the paper, it is better to pick specific points and go into more depth about **why** they are important technical details (e.g., whot could go wrong if they get the detail incorrect).
+
+        The dependencies between RDDs can be wide or narrow. The
+        narrow dependency is pipelined in each stage container,
+        while the wide ones are materialized on the nodes holding
+        parent partitions. For the interpreter, the two modifications
+        on Spark are 1. to let worker nodes fetch classes over HTTP,
+        and 2. to allow the code generation process to reference
+        the instance of object directly. The memory management
+        consists of three parts: the in-memory storage as Java
+        objects, in-memory storage as serialized data, and on-disk
+        storage. They also use LRU policy on RDDs to manage memory.
+
 #### Haters
 
 This is on point, and gets to the heart of the matter.  But why are there such vast overheads?  Is it inherent in their approach, or an artifact of the implementation?
@@ -32,6 +50,19 @@ This is also a good, strong statement, because it points out the primary points 
 		both generality of programming model and large scale parallel
 		processing and fault tolerance.
 
+This is another Hater with good observations.  It is one of (many) major limitations from a performance perspective.  I like how it contrasts with the ideal:
+
+        It only allows single data flow. Google Map/Reduce is useful only
+        if there is single stage of map and reduce. If the job is consisted
+        of multiple map/reduce stages, only way to do in map/reduce is to
+        run each stage sequentially....  The ideal for data parallel
+        applications is linear speedup, but we don't know how close MapReduce
+        gets to this goal.
+
+However, it is ambiguous when critiquing RDDs.  Specifically, what types of details would make it easier to appreciate the system?
+
+        While if the author could provide some more details about the RDDs,
+        it should be easier for the readers to appreciate the system itself.
 
 ## Reviews
 
