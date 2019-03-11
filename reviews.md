@@ -293,7 +293,7 @@ Readings
 
 [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
 
-Roles: 
+Roles.  Continue to work on prioritizing the most important points (depth) over summarizing (breadth).  Be sure to justify your choices.
 
 * Problem:  Yiliang, Ziao
 * State-of-the-art:  Maryam, Xinyue
