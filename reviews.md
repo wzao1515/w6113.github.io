@@ -317,6 +317,10 @@ Readings
 
 [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
 
+Some notes to guide your reading
+
+* This paper focuses primarily on what it provides and how it works.  But why are its mechanisms needed?
+
 Roles: 
 
 * Problem:  Yiru, Shikun
