@@ -317,9 +317,9 @@ Readings
 
 [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
 
-Some notes to guide your reading
+Some notes to guide your reading and thinking.  You should still focus on your roles.
 
-* This paper focuses primarily on what it provides and how it works.  But why are its mechanisms needed?
+* This paper focuses primarily on what Naiad provides and how it works.  But which are actually _necessary_?  Which are nice-to-haves?  Why?  How does it contrast with other papers we have read?  Can it do things other systems cannot?   
 
 Roles: 
 
