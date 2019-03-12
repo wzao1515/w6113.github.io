@@ -319,9 +319,9 @@ Readings
 
 Some notes to guide your reading and thinking.  You should still focus on your roles.
 
-* This paper focuses primarily on what Naiad provides and how it works.  But which are actually _necessary_?  Which are nice-to-haves?  Why?  How does it contrast with other papers we have read?  Can it do things other systems cannot?   
-* What makes this paper easy or hard to read?  Note those down, and we can discuss in class
-* we will go over some of the technical details of how execution operates
+* This paper focuses primarily on what Naiad provides and how it works.  But which are actually _necessary_?  Which are nice-to-haves?  Why?  How does it contrast with other papers we have read (spark, spark streaming, recursive queries)?  Can it do things other systems cannot?   
+* What makes this paper easy or hard to read?  Note those, and other questions you have, in the comments, and we can discuss in class
+* We will go over some of the technical details of how execution operates
 
 Roles: 
 
