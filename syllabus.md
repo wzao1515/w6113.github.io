@@ -54,6 +54,8 @@ For Homeworks, you allowed 5 penalty free late days to use throughout the semest
 You will pursue a [semester long research project](./projects) related to this course.
 The project is a significant part of the course grade.
 
+
+<!--
 <a name="midterm"></a>
 #### Midterm Exam
 
@@ -62,6 +64,7 @@ The exam will be long-from questions based on the mandatory readings and topics 
 It will be closed notes.
 
 A corallory is that your conduct is respectful and encouraging to your fellow students.
+-->
 
 
 <a name="ec"></a>
