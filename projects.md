@@ -73,6 +73,12 @@ Your prospectus should follow the example:
 We will spend two class sessions running a mock program committee (PC) meeting.  The timeline for this will be as follows:
 
 * **3/14 11:59PM EST** Submit a draft of your paper to CMT **[using the ACM proceedings LaTeX template](https://www.acm.org/publications/proceedings-template)**.   The draft should be a fleshed out version of your prospectus, with substantially more technical details and a sketch of your experiments.
+  * Your paper should be no more than 10 pages, and include at least the following sections:
+    1. Introduction: motivate the problem, summarize related work, and declare your crisp hypothesis (or hypotheses).  This should be fully present.
+    2. Related Work: describe the state of the art in the most relevant research areas to your project.  This should be fully present.
+    3. Technical Overview: outline the technical approach you are taking so that the reader has an intuition about the solution.  This should be fully present.
+    4. Technical Details: considerably more technical details of your project, and details on what has been implemented.  The details should be mostly complete, but may not be implemented yet.
+    5. Experiments: describe the experimental setup as we have gone over in class.  You may not have run experiments yet.  If you have, feel free to include them.
 * **3/15** You will be assigned 3-4 papers to review, and serve as the "lead" for one.  The review format will be the same as the reviews throughout the semester.
 * **3/29 11:59PM EST** You will submit your reviews to CMT.   Read the other reviews for your assigned papers over the weekend.  
 * **4/2 - 4/4** We will discuss each paper based on the reviews (authors will step out of the room).  Each reviewer will argue their view on the paper, and try to reach a consensus.  The lead is responsible for running the discussion.   The lead will also summarize the discussion/outcome into a meta review.  
