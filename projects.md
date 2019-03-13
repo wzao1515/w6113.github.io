@@ -16,7 +16,7 @@ title: W6113 Research Project
 Percentages are of your total class grade.
 
 * Prospectus      2/14    (10%)
-* Paper Draft     3/14    (5%)
+* Paper Draft     3/22    (5%)
 * Mock PC         4/2, 4/4  (5%)
 * Presentation    4/30    (10%)
 * Report          5/2     (40%)
