@@ -17,7 +17,7 @@ Students are expected to be comfortable with a range of programming languages, r
 
 
 #### Recent Announcements
-
+* Paper Draft due date has been moved to March 22nd, and PC Reviews to March 29th.
 * Due to popular request, paper reviews can be turned in 10PM EST day before class.
 * Updated [Projects page](./projects) with project milestones and a few example projects.
 * Uploaded [list of students that successfully completed HW0 and can enroll in the course](./md5s)

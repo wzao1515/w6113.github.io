@@ -16,7 +16,7 @@ title: W6113 Research Project
 Percentages are of your total class grade.
 
 * Prospectus      2/14    (10%)
-* Paper Draft     3/14    (5%)
+* Paper Draft     3/22    (5%)
 * Mock PC         4/2, 4/4  (5%)
 * Presentation    4/30    (10%)
 * Report          5/2     (40%)
@@ -72,8 +72,8 @@ Your prospectus should follow the example:
 
 We will spend two class sessions running a mock program committee (PC) meeting.  The timeline for this will be as follows:
 
-* **3/14 11:59PM EST** Submit a draft of your paper to CMT **[using the ACM proceedings LaTeX template](https://www.acm.org/publications/proceedings-template)**.   The draft should be a fleshed out version of your prospectus, with substantially more technical details and a sketch of your experiments.
-* **3/15** You will be assigned 3-4 papers to review, and serve as the "lead" for one.  The review format will be the same as the reviews throughout the semester.
+* **3/22 11:59PM EST** Submit a draft of your paper to CMT **[using the ACM proceedings LaTeX template](https://www.acm.org/publications/proceedings-template)**.   The draft should be a fleshed out version of your prospectus, with substantially more technical details and a sketch of your experiments.
+* **3/23** You will be assigned 3-4 papers to review, and serve as the "lead" for one.  The review format will be the same as the reviews throughout the semester.
 * **3/29 11:59PM EST** You will submit your reviews to CMT.   Read the other reviews for your assigned papers over the weekend.  
 * **4/2 - 4/4** We will discuss each paper based on the reviews (authors will step out of the room).  Each reviewer will argue their view on the paper, and try to reach a consensus.  The lead is responsible for running the discussion.   The lead will also summarize the discussion/outcome into a meta review.  
 
