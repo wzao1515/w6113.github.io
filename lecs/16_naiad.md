@@ -17,14 +17,20 @@ A streaming perspective on query execution
 * Run Q(D) well defined via relational algebra/semantics
 * Implemented as query plan P with access methods over D
 * If execution model is push based, then access methods push records up the plan
-  * What if access method only lets you read from it once?
-  * Push from access method is like new record from a stream?
+* But we only release the result after the next clock tick (aka all records have been read and processed by all operators)
+
+Can we think of it incrementally?
+
+* Only allowed to read once from access method
+  * Push from access method is like new record from a stream
 * Query result initially empty (correct if inputs are empty)
   * new records update query result.  
   * only expose result once all inputs are read
 * Can we expose intermediate results earlier?
   * Eddies
+* What if input is not absolutely ordered?  
 * How much state do we need to keep?
+  * for symmetric hash join?
 * Are we restricted to trees plans?
 * What core properties do operators need to expose?
 
@@ -33,6 +39,7 @@ Pipelines
 * We discussed how aggregation is a blocking operator
   * can't emit values before it sees all inputs
 * what if we aggregate on time, and it has some ordering?
+  * then we can emit timestep by timestep?
 
 Consider recursive queries
 
@@ -56,6 +63,8 @@ Consider recursive queries
 * run recursive query component using edges@v0, collect new records as v1
 * repeat with @v1, @v2,... @vi until no more messages
 * This is bulk synchronous processing
+  * the versioning is implicit in which "step" of BSP we are in
+* What if we explicitly tracked the versions instead?
 
 
 Consider Spark queries
@@ -125,6 +134,9 @@ Low-level API
   * can only call sendBy and notifyAt with t' >= t
 * v.onNotify(t : Timestamp)
   * can only call sendBy and notifyAt with t' >= t
+* Why is this a cool model?
+  * decouple the fact that you want to send a message from when it is actually sent
+  * fine-grained time/BSP-style synchronization
 
 
 Timestamps
