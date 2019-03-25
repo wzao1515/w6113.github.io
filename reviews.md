@@ -349,7 +349,7 @@ Roles
 
 * Problem:  Haneen, Xiao
 * State-of-the-art:  Siyang, Alan
-* How:  Dean, Maryam
+* How:  Ziao, Maryam
 * Results:  Amita, Shikun
 * Future:  Yiliang, Yiru
 * Applier:  Jennifer, Xinyue
