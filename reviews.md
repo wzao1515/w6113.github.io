@@ -345,6 +345,10 @@ Readings
 
 [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
 
+Questions
+
+* When you assess the reading, compare against other formal and informal data query languages we have encountered.  
+
 Roles
 
 * Problem:  Haneen, Xiao
