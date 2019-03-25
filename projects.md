@@ -11,7 +11,7 @@ title: W6113 Research Project
 }
 </style>
 
-#### Important Dates 
+### Important Dates 
 
 Percentages are of your total class grade.
 
@@ -23,7 +23,7 @@ Percentages are of your total class grade.
 
 
 
-#### Overview
+### Overview
 
 The major portion of your grade is based on the research project. Students will organize into teams of 1-3 students and work on a research project.  It should take about 3-4 weeks to complete.  Some possible ideas are [described below](#suggestions).
 
@@ -52,7 +52,7 @@ Teams can meet with the instructor after their presentations for further discuss
 <!-- [Click here to submit before class on 2/1](https://goo.gl/forms/j8aXKKtjxH0rzVgx2) -->
 
 
-#### Prospectus 
+### Prospectus 
 
 Your research prospectus will contain an overview of the research problem, _your hypothesis_, first pass at related work, a description of how you plan to complete the project, and metrics to decide _if it worked_.   
 
@@ -68,7 +68,7 @@ Your prospectus should follow the example:
 
 
 <a name="midpoint"></a>
-#### Mock PC Meeting and Paper Draft
+### Mock PC Meeting and Paper Draft
 
 We will spend two class sessions running a mock program committee (PC) meeting.  The timeline for this will be as follows:
 
@@ -77,7 +77,7 @@ We will spend two class sessions running a mock program committee (PC) meeting. 
 * **3/29 11:59PM EST** You will submit your reviews to CMT.   Read the other reviews for your assigned papers over the weekend.  
 * **4/2 - 4/4** We will discuss each paper based on the reviews (authors will step out of the room).  Each reviewer will argue their view on the paper, and try to reach a consensus.  The lead is responsible for running the discussion.   The lead will also summarize the discussion/outcome into a meta review.  
 
-**The Paper Draft**
+#### The Paper Draft
 
 Your paper should be no more than 10 pages, and include at least the following sections:
 
@@ -93,6 +93,53 @@ In short, I expect that you have a much clearer idea about the problem _and_ how
 
 * [CMT website](https://cmt3.research.microsoft.com/w6113).  MAKE SURE YOU USE THE CORRECT TEMPLATE.
 
+
+#### Paper Reviews
+
+Study suggestions on how to review, and NOT review, papers
+
+* [Ethics of Peer Review](https://ori.hhs.gov/sites/default/files/prethics.pdf)
+* [How NOT to review a paper](https://sigmodrecord.org/publications/sigmodRecord/0812/p100.open.cormode.pdf)
+
+
+#### PC Meeting
+
+For each paper, we will choose one or more of the reviewers as the "Shephard".  Their job is to:
+
+* Lead the discussion during the PC meeting
+* Work with the individual reviewers to ensure that the reviews are complete, positive, constructive, and reflect the discussion.
+* Work with the authors during the rest of the semester to ensure that the final version of the paper meets the standards from the PC discussion.
+* In short, the paper's success is tied to the Shephard's success.
+
+PC Meeting Format
+
+* We will discuss half the papers in each lecture.
+* Authors of the discussed paper will leave the room.
+* PC will discuss the paper, along the dimensions that your review roles have been focusing on, and agree on feedback to provide authors
+* Shephard will write a summary review emphasizing the main points for the authors
+* Each reviewer will update their own reviews based on the discussion.  This can involve removing points, adding new comments, clarifying points, etc
+* Shephard works with reviewers to ensure reviews are constructive.  
+* Reviews are released day after the PC meeting at the latest.
+
+Paper Discussion Format
+
+* Shephard leads the discussion.  
+* Reviewers summarize their overall impressions, then broader discussion about the merits of the work
+* All reviewers and PC members have equal standing
+* Shephard keeps the discussion on track, and keeps time.
+
+Post-PC Meeting Assignment
+
+* Submit a reflection of your own review
+  * For each paper:
+    * What are the top 3 or more ways in which your review is similar to the other reviewers?
+    * What are the top 3 or more ways in which your review is different to the other reviews?
+  * Overall, what are takeaways or lessons from this process that you can apply when you write reviews in the future?
+
+
+
+
+<!--
 #### Poster Session (TBA)
 
 Your team will prepare and present a project poster at the end-of-course poster session.   This gives you an opportunity to present a short demo of your work and show what you have accomplished in the class!
@@ -101,7 +148,9 @@ Your team will prepare and present a project poster at the end-of-course poster 
 
 * Simply attend and present at the poster session.
 
-#### Report/Camera Ready (5/2 11:59PM EST)
+-->
+
+### Report/Camera Ready (5/2 11:59PM EST)
 
 You will prepare a conference-style report on your project with **maximum length** of 12 pages (10 pt font or larger, one or two columns, 1 inch margins, single or double spaced -- more is not better.) Your report should expand upon your prospectus and introduce and motivate the problem your project addresses, describe related work in the area, discuss the elements of your solution, and present results that measure the behavior, performance, or functionality of your system (with comparisons to other related systems as appropriate.)
 
