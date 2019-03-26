@@ -6,6 +6,16 @@ layout: page
 
 # Datalog Primer
 
+Partial containment of languages
+
+* RA+ == non-recursive datalog
+* RA (RA with negation) ⊃ RA+ 
+* Positive Datalog (recursive) ⊃ RA+
+* !Datalog ⊃ RA+, RA, Positive Datalog
+  * Expresses all poly time algorithms wrt inputs --> termination guarantees
+* Prolog (functions) ⊃ Datalog + Negation
+
+
 Syntax
 
         A :- B1,... Bn
@@ -411,6 +421,11 @@ Filter-Join for R join S
 
     R(X, Y), sup(Y), S(Y, Z)
 
+### More Reading
+
+* Bottom-up Beats Top-Down for Datalog - Jeff Ullman
+* [Intro to datalog Blog post](https://x775.net/2019/03/18/Introduction-to-Datalog.html)
+* Systems approach to making datalog fast: [Scaling-Up In-Memory Datalog Processing: Observations and Techniques](http://www.vldb.org/pvldb/vol12/p695-fan.pdf)
 
 ## Extensions
 
