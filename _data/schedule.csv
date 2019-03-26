@@ -16,7 +16,7 @@ white,28-Feb,Hybrid Caching/UDFs,,-,,,,
 #fdf3fd,12-Mar,Large-scale Dataflow Basics2,,Wu,,,,
 white,14-Mar,Naiad,,Wu,,,,HW3
 white,22-Mar,-,,,,,,Paper Draft Due
-white,26-Mar,Datalog and Recursion,,Wu,,,,
+white,26-Mar,Datalog and Recursion,./lecs/18_datalog,Wu,,,,
 #fdf3fd,28-Mar,Lineage,,Yiliang Shi,,,,
 white,29-Mar,-,,,,,,PC Reviews
 white,2-Apr,Mock PC,,-,,,,Mock PC
