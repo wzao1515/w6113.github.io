@@ -101,6 +101,7 @@ Paper reviews address the same points as the roles that we have been focusing on
 * [Review AntiPatterns (written for FSE 14 PC)](https://homes.cs.washington.edu/~mernst/advice/review-antipatterns-devanbu.txt)
 * [Ethics of Peer Review](https://ori.hhs.gov/sites/default/files/prethics.pdf)
 * [How NOT to review a paper](https://sigmodrecord.org/publications/sigmodRecord/0812/p100.open.cormode.pdf)
+* [Conference Reviewing Considered Harmful](https://homes.cs.washington.edu/~tom/support/confreview.pdf): A view on how reviewing works.
 
 
 #### PC Meeting
