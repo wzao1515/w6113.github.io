@@ -96,13 +96,19 @@ In short, I expect that you have a much clearer idea about the problem _and_ how
 
 #### Paper Reviews
 
-Study suggestions on how to review, and NOT review, papers
+Paper reviews address the same points as the roles that we have been focusing on.  They are different in that you want to propose concrete points that are great, and points that can use improvement.  Beyond that, study suggestions on how to review, and NOT review, papers:
 
 * [Ethics of Peer Review](https://ori.hhs.gov/sites/default/files/prethics.pdf)
 * [How NOT to review a paper](https://sigmodrecord.org/publications/sigmodRecord/0812/p100.open.cormode.pdf)
 
 
 #### PC Meeting
+
+Preparation
+
+* Read the reviews for each paper, including papers you did not review
+* Prepare to share your perspective on each paper.
+
 
 For each paper, we will choose one or more of the reviewers as the "Shephard".  Their job is to:
 
