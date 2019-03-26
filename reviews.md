@@ -371,6 +371,10 @@ Readings:
 
 [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
 
+Question to comment on:
+
+* Provenance goes beyond what they mention in the paper and is _everywhere_.  Point out a concept/functionality in the real (or digital) world that can be recast as provenance and provenance queries.  Describe it.
+
 Roles
 
 * Problem:  Alan, Siyang
