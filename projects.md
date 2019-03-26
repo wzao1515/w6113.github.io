@@ -98,6 +98,7 @@ In short, I expect that you have a much clearer idea about the problem _and_ how
 
 Paper reviews address the same points as the roles that we have been focusing on.  They are different in that you want to propose concrete points that are great, and points that can use improvement.  Beyond that, study suggestions on how to review, and NOT review, papers:
 
+* [Review AntiPatterns (written for FSE 14 PC)](https://homes.cs.washington.edu/~mernst/advice/review-antipatterns-devanbu.txt)
 * [Ethics of Peer Review](https://ori.hhs.gov/sites/default/files/prethics.pdf)
 * [How NOT to review a paper](https://sigmodrecord.org/publications/sigmodRecord/0812/p100.open.cormode.pdf)
 
