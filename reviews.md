@@ -398,7 +398,7 @@ Readings:
 <a name='lec22' />
 ### Materialized Views    
 
-* Required: [Survey: Materialized Views](./files/papers/matview-survey.pdf)
+* Required: [Survey: Materialized Views](./files/papers/matview-survey.pdf) Ch 1,2,4
 * Optional: [Noria: dynamic, partially-stateful data-flow for high-performance web applications](https://pdos.csail.mit.edu/papers/noria:osdi18.pdf)
 
 [SUBMIT YOUR REVIEW HERE](https://goo.gl/forms/ymmD3tIBTWpQO7ME2)
