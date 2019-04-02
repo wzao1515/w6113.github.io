@@ -136,7 +136,15 @@ Paper Discussion Format
 * All reviewers and PC members have equal standing
 * Shephard keeps the discussion on track, and keeps time.
 
-#### Post-PC Meeting Assignment (Due Sat 4/6 11:59PM)
+#### Shepherd Duties after PC Meeting
+
+* Go over all reviews for shepherd'd paper and ensure they are positive, detailed, and constructive.
+* Write summary review, and get sign off by reviewers.
+  * Summary review written in review description under a heading such as "----- SUMMARY REVIEW -----" 
+* Discuss with paper authors in person to clarify review suggestions.
+
+
+#### Post-PC Meeting Reflection (Due Sat 4/6 11:59PM)
 
 [Use this form to submit](https://forms.gle/wmqKEU1AW4bMs3G4A)
 
