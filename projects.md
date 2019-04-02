@@ -139,10 +139,17 @@ Paper Discussion Format
 Post-PC Meeting Assignment
 
 * Submit a reflection of your own review
-  * For each paper:
+  1. For each paper:
     * What are the top 3 or more ways in which your review is similar to the other reviewers?
     * What are the top 3 or more ways in which your review is different to the other reviews?
-  * Overall, what are takeaways or lessons from this process that you can apply when you write reviews in the future?
+  2. Overall, what are takeaways or lessons from this process that you can apply when you write reviews in the future?
+* Submit a reflection of your project
+  * How can you improve the motivation/introduction (if applicable)?
+  * How can you improve the technical ideas (if applicable)?
+  * How can you improve the evaluation (if applicable)?
+  * How can you improve the writing and argumentation (if applicable)?
+
+
 
 
 
