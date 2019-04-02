@@ -136,18 +136,24 @@ Paper Discussion Format
 * All reviewers and PC members have equal standing
 * Shephard keeps the discussion on track, and keeps time.
 
-Post-PC Meeting Assignment
+#### Post-PC Meeting Assignment (Due Sat 4/6 11:59PM)
 
-* Submit a reflection of your own review
-  1. For each paper:
-    * What are the top 3 or more ways in which your review is similar to the other reviewers?
-    * What are the top 3 or more ways in which your review is different to the other reviews?
-  2. Overall, what are takeaways or lessons from this process that you can apply when you write reviews in the future?
-* Submit a reflection of your project
-  * How can you improve the motivation/introduction (if applicable)?
-  * How can you improve the technical ideas (if applicable)?
-  * How can you improve the evaluation (if applicable)?
-  * How can you improve the writing and argumentation (if applicable)?
+[Use this form to submit](https://forms.gle/wmqKEU1AW4bMs3G4A)
+
+Reflect on your own reviewing
+
+1. For each paper you reviewed:
+  * What are the top 3 or more ways in which your review is similar to the other reviewers?
+  * What are the top 3 or more ways in which your review is different to the other reviews?
+2. Overall, what are takeaways or lessons from this process that you can apply when you write reviews in the future?
+
+Submit a reflection of your project
+
+* How can you improve the motivation/introduction (if applicable)?
+* How can you improve the technical ideas (if applicable)?
+* How can you improve the evaluation (if applicable)?
+* How can you improve the writing and argumentation (if applicable)?
+* How useful were the reviews?
 
 
 
