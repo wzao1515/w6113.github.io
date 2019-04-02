@@ -421,14 +421,17 @@ Roles
 * Optional: [Implementing Data Cubes Efficiently](http://ilpubs.stanford.edu:8090/102/1/1995-34.pdf)
 * Optional: [Explaining differences in multidimensional aggregates](./files/papers/olapdiff-sunita.pdf)
 
+
+At this point, you have focused on specific reviewer roles as part of reviewing.   For this paper and the rest of the semester, your reviews should be full paper reviews, where it hits upon each of the roles above.  
+
+[SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
+
 <a name='lec24' /> 
 ### Visualization/Exploration
 
-* Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
-* Optional: [Automatically Indexing Millions of Databases in Microsoft Azure SQL Database](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)
-* Optional: [Query-based Workload Forecasting for Self-Driving Database Management Systems](https://www.cs.cmu.edu/~dvanaken/papers/forecasting-sigmod18.pdf)
-* Optional: [Database Cracking](https://stratos.seas.harvard.edu/files/IKM_CIDR07.pdf)
+TBA
 
+[SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
 
 <a name='lec25' /> 
@@ -438,6 +441,8 @@ Roles
 * Optional: [Automatically Indexing Millions of Databases in Microsoft Azure SQL Database](https://www.microsoft.com/en-us/research/uploads/prod/2019/02/autoindexing_azuredb.pdf)
 * Optional: [Query-based Workload Forecasting for Self-Driving Database Management Systems](https://www.cs.cmu.edu/~dvanaken/papers/forecasting-sigmod18.pdf)
 * Optional: [Database Cracking](https://stratos.seas.harvard.edu/files/IKM_CIDR07.pdf)
+
+[SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
 
 <!--
@@ -459,6 +464,7 @@ Roles
 * Optional: [Towards a Unified Architecture for in-RDBMS Analytics](https://cs.stanford.edu/people/chrismre/papers/bismarck.pdf)
 * Optional: [Learning Generalized Linear Models Over Normalized Data](http://pages.cs.wisc.edu/~jignesh/publ/GLMs-over-joins.pdf)
 
+[SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
 <!--
 <a name='lec18' />
