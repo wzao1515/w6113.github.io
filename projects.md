@@ -136,6 +136,7 @@ Paper Discussion Format
 * All reviewers and PC members have equal standing
 * Shephard keeps the discussion on track, and keeps time.
 
+<a name="shepherd"/>
 #### Shepherd Duties after PC Meeting
 
 * Go over all reviews for shepherd'd paper and ensure they are positive, detailed, and constructive.
@@ -144,6 +145,7 @@ Paper Discussion Format
 * Discuss with paper authors in person to clarify review suggestions.
 
 
+<a name="reflection"/>
 #### Post-PC Meeting Reflection (Due Sat 4/6 11:59PM)
 
 [Use this form to submit](https://forms.gle/wmqKEU1AW4bMs3G4A)

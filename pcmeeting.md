@@ -11,6 +11,7 @@ The shepherd job is copied below.  The shepherds are responsible for putting tog
 * Work with the authors during the rest of the semester to ensure that the final version of the paper meets the standards from the PC discussion.
 * In short, the paper’s success is tied to the Shephard’s success.
 
+[Shepherd Duties after the PC Meeting](./projects#shepherd)
 
 # Shepherds
 
