@@ -141,7 +141,7 @@ Paper Discussion Format
 
 * Go over all reviews for shepherd'd paper and ensure they are positive, detailed, and constructive.
 * Write summary review, and get sign off by reviewers.
-  * Summary review written in review description under a heading such as 
+  * Summary review should be written in Details box of your review, under a heading such as 
   
         -------- SUMMARY REVIEW --------
 
