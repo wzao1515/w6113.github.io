@@ -420,6 +420,7 @@ Roles
 * Required: [Data Cube](./files/papers/datacube-jimgray.pdf)
 * Optional: [Implementing Data Cubes Efficiently](http://ilpubs.stanford.edu:8090/102/1/1995-34.pdf)
 * Optional: [Explaining differences in multidimensional aggregates](./files/papers/olapdiff-sunita.pdf)
+* Optional: [Gaussian Cubes: Real-Time Modeling for Visual Exploration of Large Multidimensional Datasets](https://cscheid.net/static/papers/infovis_gaussian_cubes_2016.pdf)
 
 
 At this point, you have focused on specific reviewer roles as part of reviewing.   For this paper and the rest of the semester, your reviews should be full paper reviews, where it hits upon each of the roles above.  
