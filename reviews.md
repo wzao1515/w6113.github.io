@@ -409,8 +409,8 @@ Roles
 * State-of-the-art:  Haneen, Amita
 * How:  Xiao, Ziao
 * Results:  Siyang
-* Future:  Dean
-* Applier:  Yiru
+* Future:  Dean, Alan
+* Applier:  Yiru, Shikun
 * Hater:  Yiliang, Maryam
 
 
