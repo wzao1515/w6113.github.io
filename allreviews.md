@@ -15,7 +15,7 @@ div.block {
 {% assign reviews3 = site.data.reviews3 | reverse %}
 {% for r in reviews3 %}
   <p class="review">
-  <h3>---</h3>
+  <h3>{{r.Timestamp}} {{r.Name}}</h3>
 
   <div class="block"><h5>{{ r.Role | safe }}</h5></div>
   <div class="block">{{ r.Summary | newline_to_br | safe }}</div>
