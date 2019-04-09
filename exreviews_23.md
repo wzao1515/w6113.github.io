@@ -4,7 +4,7 @@ layout: page
 
 
 
-    <style>
+<style>
 p.review {
   border-left: 2px solid grey;
 }
