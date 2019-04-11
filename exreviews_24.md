@@ -2,6 +2,70 @@
 layout: page
 ---
 
+# Comments
+
+It should be noted from Jim Gray's [sigmod interview](https://sigmod.org/publications/interviews/pdf/Gray-SIGMOD-Interview-Final.pdf) that the data cube, which is HUGELY influential, was repeatedly rejected.
+
+This paper proposes a new feature.  This suggests natural questions to center a review around.
+
+* Expressiveness.  
+  * Does it add expressivity beyond SQL?  
+  * Or is it more efficient/easy to use?  For the programmer?  or the System?
+* What is the core observation that the rest builds upon? 
+* Is the feature, or the mechanism proposed to implement the feature, novel (with respect to state of the art), and why?
+
+
+
+### Comments on reviews
+
+Some of the reviews are simply summarizing the paper.  That is only a minor aspect of the review.  The main point is to highlight the KEY ideas, and to remark on the strengths and weaknesses of the paper by taking the different roles.
+
+
+This review was overall quite good, and I challenge you to answer your own questions!  If it's really a powerset, perhaps it is fundamentally expensive?
+
+    It is also not clear if there is a way to efficiently calculate
+    the power set of the aggregation columns, which CUBE relies
+    upon.
+
+I like that this criticism is specific, with a pointer o a concrete example:
+
+    I really just don't get histogram example - the author's
+    "intuitive" version is hardly any different from from the SQL92
+    version! I'm not really sure why this was necessary to include
+    in the paper
+
+Is this the hypothesis of the paper?  That would imply that the evaluation and goal is to show that CUBE makes visualization and data extraction easier than SQL.
+
+    The hypothesis is to that by using the multi-dimensional cube
+    and the operator, SQL could be more easy to use for
+    visualizing/extracting data.
+
+Either it is excessively complex (if so, provide an example/evidence) or it is not.  Pick a side.  "perhaps" is a [weasel word](https://en.m.wikipedia.org/wiki/Weasel_word).
+
+    and the claim of the presence of additional rules not mentioned
+    in the paper suggests perhaps excessive complexity
+
+
+This comment is closer to abstraction than concrete representation:
+
+    This is very novel because it provides a new mental model for
+    how to work with data that takes it from an abstraction to a
+    more concrete representation.
+
+This "in order" statement does not address the novelty in the previous sentence:  
+
+    It is also novel ... embed a notion of time or some other
+    linear scale in the data model itself. In order to accomplish
+    this, the paper describes the different types of aggregate
+    functions
+
+Make sure the review is correct.  The point of the cube is to support large datasets when you will only aggregate over a small number of dimensions.  It has a dense representation (arrays of arrays...) to allow direct array indexing.
+
+    In order to explore the cube and make it actually usable for a
+    dataset of nontrivial size, there should be indexing of some kind
+    within the cube itself, which the paper does not get into much
+    detail about.
+
 # Reviews
 
 <style>
