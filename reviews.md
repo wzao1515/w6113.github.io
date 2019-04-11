@@ -428,9 +428,10 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 [SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
 <a name='lec24' /> 
-### Visualization/Exploration
+### Visualization/Sampling
 
-TBA
+* Required: [BlinkDB](https://sameeragarwal.github.io/blinkdb_eurosys13.pdf)
+* Optional: [Dynamic Sample Selection for Approximate Query Processing](http://www-cs-students.stanford.edu/~babcock/papers/sampling.pdf)
 
 [SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
