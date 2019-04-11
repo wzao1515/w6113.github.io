@@ -17,12 +17,10 @@ div.block {
   <p class="review">
   <h3>{{r.Timestamp}} {{r.Name}}</h3>
 
-  <div class="block"><h5>{{ r.Role | safe }}</h5></div>
-  <div class="block">{{ r.Summary | newline_to_br | safe }}</div>
   <div>Response:</div>
-  <p class="block">{{ r.Response | newline_to_br | safe }}</p>
+  <p class="block">{{ r.review | newline_to_br | safe }}</p>
   <div>Comments:</div>
-  <p class="block">{{ r.Comments | newline_to_br | safe }}</p>
+  <p class="block">{{ r.comments | newline_to_br | safe }}</p>
   </p>
   <hr/>
 {% endfor %}
