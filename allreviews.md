@@ -28,9 +28,9 @@ div.block {
   <h3>{{r.Timestamp}} {{r.Name}}</h3>
 
   <div>Response:</div>
-  <p class="block">{{ r.review | newline_to_br | safe }}</p>
+  <p class="block">{{ r.Review | newline_to_br | safe }}</p>
   <div>Comments:</div>
-  <p class="block">{{ r.comments | newline_to_br | safe }}</p>
+  <p class="block">{{ r.Comments | newline_to_br | safe }}</p>
   </p>
   <hr/>
 {% endfor %}

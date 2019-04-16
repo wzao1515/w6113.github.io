@@ -4,7 +4,15 @@ layout: page
 
 ## Comments
 
-BlinkDB uses query workloads to precompute stratefied samples: queries over large groups use small strata, and rarer groups use larger strata.  
+Wu's Summary:
+
+* BlinkDB uses query workloads to precompute stratefied samples for groups defined by columns the workload will query.  The samples are chunked so queries read what they need. 
+
+
+Notice
+
+* The reliance on the workload is offset by considerable evidence that it is a safe assumption
+* k
 
 ## Reviews
 
