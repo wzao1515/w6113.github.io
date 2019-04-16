@@ -12,7 +12,6 @@ Wu's Summary:
 Notice
 
 * The reliance on the workload is offset by considerable evidence that it is a safe assumption
-* k
 
 ## Reviews
 
