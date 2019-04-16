@@ -2,8 +2,11 @@
 layout: page
 ---
 
+## Comments
 
+BlinkDB uses query workloads to precompute stratefied samples: queries over large groups use small strata, and rarer groups use larger strata.  
 
+## Reviews
 
 <style>
 p.review {
