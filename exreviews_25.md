@@ -12,6 +12,8 @@ Wu's Summary:
 Notice
 
 * The reliance on the workload is offset by considerable evidence that it is a safe assumption
+* Most of the focus is on pragmatics
+* Dynamic query optimization: run a bit, estimate, plan, run the full thing
 
 ## Reviews
 
