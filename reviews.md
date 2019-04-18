@@ -414,7 +414,7 @@ Roles
 * Hater:  Yiliang, Maryam
 
 
-<a name='lec23' />
+<a name='lec24' />
 ### Data Cubes    
 
 * Required: [Data Cube](./files/papers/datacube-jimgray.pdf)
@@ -427,7 +427,7 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 
 [SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
-<a name='lec24' /> 
+<a name='lec25' /> 
 ### Visualization/Sampling
 
 * Required: [BlinkDB](https://sameeragarwal.github.io/blinkdb_eurosys13.pdf)
@@ -436,7 +436,7 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 [SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
 
-<a name='lec25' /> 
+<a name='lec26' /> 
 ### Self-tuning DBs  
 
 * Required: [Self-Tuning Database Systems: A Decade of Progress ](./files/papers/selftuning-chaudhuri-vldb07.pdf)
