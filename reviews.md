@@ -478,6 +478,7 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 <a name='lec29' />
 ### Fast Scans
 
-* [BitWeaving](http://www.cs.wisc.edu/~jignesh/publ/BitWeaving.pdf)
+* Required: [BitWeaving](http://www.cs.wisc.edu/~jignesh/publ/BitWeaving.pdf)
+* Optional: [WideTables](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.650.2556&rep=rep1&type=pdf)
 
 
