@@ -459,12 +459,19 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 -->
 
 
-<a name='lec28' />
-### ML in DB
+<!--### ML in DB
 
 * Required: [MAD Skills: New Analysis Practices for Big Data](http://db.cs.berkeley.edu/papers/vldb09-madskills.pdf)
 * Optional: [Towards a Unified Architecture for in-RDBMS Analytics](https://cs.stanford.edu/people/chrismre/papers/bismarck.pdf)
 * Optional: [Learning Generalized Linear Models Over Normalized Data](http://pages.cs.wisc.edu/~jignesh/publ/GLMs-over-joins.pdf)
+-->
+
+<a name='lec28' />
+### Fast Lineage Systems
+
+* Required: [SMOKE: Fine-grained Lineage at Interactive Speed](http://www.vldb.org/pvldb/vol11/p719-psallidas.pdf)
+* Optional: [Provenance for Interacive Visualizations](https://www.dropbox.com/s/32aid7isd2arx47/smoke-hilda18-cr.pdf?dl=0)
+* Optional: [Titian: Data Provenance Support in Spark](http://www.vldb.org/pvldb/vol9/p216-interlandi.pdf)
 
 [SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
