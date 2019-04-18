@@ -482,3 +482,14 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 * Optional: [WideTables](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.650.2556&rep=rep1&type=pdf)
 
 
+[SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
+
+
+<a name='lec30' />
+### Using Lineage
+
+* Required: [Querying and Creating Visualizations by Analogy](http://www.cs.utah.edu/~juliana/pub/tvcg-analogy2007.pdf)
+* Optional: [VisTrails: Enabling Interactive Multiple-View Visualizations](https://vgc.poly.edu/~juliana/pub/vistrails-vis2005.pdf)
+
+[SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
+
