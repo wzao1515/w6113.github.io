@@ -459,7 +459,7 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 -->
 
 
-<a name='lec26' />
+<a name='lec28' />
 ### ML in DB
 
 * Required: [MAD Skills: New Analysis Practices for Big Data](http://db.cs.berkeley.edu/papers/vldb09-madskills.pdf)
@@ -468,11 +468,9 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 
 [SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
 
-<!--
-<a name='lec18' />
+<a name='lec29' />
 ### Fast Scans
 
 * [BitWeaving](http://www.cs.wisc.edu/~jignesh/publ/BitWeaving.pdf)
--->
 
 
