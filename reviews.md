@@ -480,6 +480,7 @@ At this point, you have focused on specific reviewer roles as part of reviewing.
 
 * Required: [BitWeaving](http://www.cs.wisc.edu/~jignesh/publ/BitWeaving.pdf)
 * Optional: [WideTables](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.650.2556&rep=rep1&type=pdf)
+* Optional: [Vectorizing Database Column Scans with Complex Predicates](http://www.adms-conf.org/2013/muller_adms13.pdf)
 
 
 [SUBMIT YOUR REVIEW HERE](https://forms.gle/UuzkAX4cktEofrqXA)
