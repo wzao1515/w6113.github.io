@@ -18,6 +18,9 @@ Students are expected to be comfortable with a range of programming languages, r
 
 #### Recent Announcements
 
+* Project submissions updated
+  * Presentations on May 2nd in class.  10 minutes per group
+  * Project reports due May 10th 11:59PM EST.
 * Added [submission form for PC Meeting reflection](https://forms.gle/wmqKEU1AW4bMs3G4A), due Sat 4/6 11:59PM
 * Paper Draft due date has been moved to March 22nd, and PC Reviews to March 29th.
 * Due to popular request, paper reviews can be turned in 10PM EST day before class.

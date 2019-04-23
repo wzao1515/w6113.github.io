@@ -17,7 +17,7 @@ div.block {
 ## Short Summaries
 
 {% for r in reviews3 %}
-  <h3>--</h3>
+  <h3>{{r.Timestamp}} {{r.Name}}</h3>
   <p class="block">{{ r.Contribution | newline_to_br | safe }}</p>
 {% endfor %}
 
@@ -25,7 +25,7 @@ div.block {
 ## Reviews
 {% for r in reviews3 %}
   <p class="review">
-  <h3>--</h3>
+  <h3>{{r.Timestamp}} {{r.Name}}</h3>
 
   <div>Response:</div>
   <p class="block">{{ r.Review | newline_to_br | safe }}</p>

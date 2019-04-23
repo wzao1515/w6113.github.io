@@ -19,7 +19,7 @@ Percentages are of your total class grade.
 * Paper Draft     3/22    (5%)
 * Mock PC         4/2, 4/4  (5%)
 * Presentation    4/30    (10%)
-* Report          5/2     (40%)
+* Report          5/10     (40%)
 
 
 
@@ -184,7 +184,7 @@ Your team will prepare and present a project poster at the end-of-course poster 
 
 -->
 
-### Report/Camera Ready (5/2 11:59PM EST)
+### Report/Camera Ready (5/10 11:59PM EST)
 
 You will prepare a conference-style report on your project with **maximum length** of 12 pages (10 pt font or larger, one or two columns, 1 inch margins, single or double spaced -- more is not better.) Your report should expand upon your prospectus and introduce and motivate the problem your project addresses, describe related work in the area, discuss the elements of your solution, and present results that measure the behavior, performance, or functionality of your system (with comparisons to other related systems as appropriate.)
 
@@ -192,7 +192,7 @@ Because this report is the primary deliverable upon which you will be graded, **
 
 **Submission**
 
-* [CMT website](https://cmt3.research.microsoft.com/w6113) by 5/2 11:59PM EST
+* [CMT website](https://cmt3.research.microsoft.com/w6113) by 5/10 11:59PM EST
 
 <!-- [**Click here to upload the file by 5/2 11:59PM EST**](https://www.dropbox.com/request/9zdikb92vHFFPYtaFF0e) -->
 
