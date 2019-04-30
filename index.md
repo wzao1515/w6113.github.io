@@ -18,6 +18,7 @@ Students are expected to be comfortable with a range of programming languages, r
 
 #### Recent Announcements
 
+* Link to [list of your reviews this semester](./exreviews).
 * Project submissions updated
   * Presentations on May 2nd in class.  10 minutes per group
   * Project reports due May 10th 11:59PM EST.
