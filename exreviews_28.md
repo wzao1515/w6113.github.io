@@ -2,6 +2,28 @@
 layout: page
 ---
 
+
+## Comments
+
+My short summary:
+
+    bit-level parallelism for fast scans.  column representation 
+    at bit level. predicate pushdown to prune by reading most
+    significant bits first.
+
+
+The summary ideally uses terms that the reader already knows.
+This means they are not going to know any terms defined in the paper!
+
+      Improve storage format from VBP, HBP as a weaving 
+
+      Propose the two storage layout method HBP and VBP 
+
+
+
+## Summaries
+
+
 <style>
 p.review {
   border-left: 2px solid grey;
