@@ -18,6 +18,7 @@ Students are expected to be comfortable with a range of programming languages, r
 
 #### Recent Announcements
 
+* [Submit Camera Ready on CMT website](https://cmt3.research.microsoft.com/W61132019/) by 5/10 11:59PM EST
 * Link to [list of your reviews this semester](./exreviews).
 * Project submissions updated
   * Presentations on May 2nd in class.  10 minutes per group
