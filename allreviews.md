@@ -13,6 +13,7 @@ div.block {
 
 
 {% assign reviews3 = site.data.reviews3 | reverse %}
+{% assign reviewsall = site.data.reviewsall %}
 
 ## Short Summaries
 
